@@ -1,0 +1,3832 @@
+
+CA
+US
+GB
+MO
+CL
+SE
+NL
+AU
+ZA
+IE
+FI
+AT
+PE
+IN
+CH
+PT
+BE
+ES
+IL
+DE
+NZ
+SG
+IS
+UA
+AF
+HK
+RU
+NO
+FR
+AS
+DK
+UY
+DZ
+PK
+AR
+TH
+
+pain in left upper arm felt like i was getting a shot 1
+hip pain when gettin up 2
+pain in hand joints 3
+numbness in right hand 4
+Headache 5
+pain in left ankle 6
+pain in left leg 7
+pain in joints on feet 8
+neck and upper back pain 9
+neck pain at base of scull 10
+pain inside arm and around elbow 11
+diziness 12
+pain in face and jaw 13
+Gastroparesis 14
+Generalized anxiety disorder 15
+Obsessive-compulsive disorder 16
+Ovarian cysts 17
+Sinus headaches 18
+Temporal lobe seizure 19
+Bipolar type II 20
+Oral Allergy Syndrome 21
+Depression 22
+Endometriosis 23
+Migraine 24
+Ehlers-Danlos syndrome 25
+Hypermobility 26
+C-PTSD 27
+TMJ disorders 28
+Chronic Migraines 29
+major somnolence 30
+Fibromyalgia 31
+Irritable bowel syndrome 32
+Lyme disease 33
+POTS 34
+Back pain 35
+Chest pain 36
+Knee pain 37
+Neck pain 38
+Rib pain 39
+Shoulder pain 40
+Ankle Pain 41
+Hip Pain 42
+Stomach Pain 43
+Face Pain 44
+Groin Pain 45
+Elbow Pain 46
+Chronic daily headaches 47
+Hypothyroidism 48
+Insomnia 49
+Diabetes 50
+Rheumatoid arthritis 51
+Osteoarthritis 52
+Post-concussion syndrome 53
+Breast cancer 54
+Lumbar Spinal Pain 55
+Complex regional pain syndrome 56
+Anemia 57
+Bilateral Mastectomy 58
+Glucose Intolerance 59
+Degloving Injury Left Upper Thigh 60
+Rectovaginal fistula 61
+Allergies 62
+Crohn's disease 63
+Hashimoto's disease 64
+Cardiomyopathy 65
+Prediabetes 66
+Bipolar disorder 67
+Chronic fatigue syndrome 68
+Headaches 69
+sob 70
+Autonomic neuropathy 71
+Menstrual Cycle 72
+Idiopathic hypersomnia 73
+duanes syndrome 74
+Anxiety 75
+Vasovagal syncope 76
+Hypotension 77
+Narcolepsy 78
+Restless legs syndrome 79
+Hidradenitis suppurativa 80
+Chronic sinusitis 81
+Arthritis 82
+Costochondritis 83
+upper body sweating 84
+joint pain 85
+ADHD 86
+Borderline personality disorder 87
+Cold urticaria 88
+IBS 89
+Dissociative disorders 90
+Celiac disease 91
+Raynaud's disease 92
+Sjgorens  93
+Systemic Scleroderma 94
+Type 1 diabetes 95
+Asthma 96
+Adult ADHD 97
+Scoliosis 98
+Lichen planus 99
+Psoriasis 100
+Bronchiectasis 101
+adrenal fatigue 102
+Nausea 103
+Sphincter of Oddi Dysfunction 104
+Acute sinusitis 105
+Dysautonomia 106
+RSI 107
+Hyperadrenergic Dysautonomia 108
+Ulcerative colitis 109
+Addison's disease 110
+occipital neuralgia 111
+Stomal Hernia 112
+Autism spectrum disorder 113
+Chronic constipation 114
+PMDD 115
+OCD 116
+Fibro CFS 117
+Celiac Sprue 118
+DSPS 119
+CPTSD 120
+Fatigue 121
+brain fog 122
+Interstitial cystitis 123
+Multiple sclerosis 124
+fatigue  125
+Polycystic Ovaries 126
+Peptic ulcer 127
+Impulsivity 128
+Meniere's disease 129
+Sjogren's syndrome 130
+Depressed Mood 131
+Common cold 132
+Pain 133
+Toothache 134
+Inattention 135
+Urinary Pain 136
+Urinary Urgency 137
+Crohns 138
+Urinary Frequency 139
+Polycystic ovary syndrome 140
+fibromyalgia  141
+Bursitis 142
+Psoriatic arthritis 143
+inappropriate sinus tachycardia 144
+GERD 145
+Systemic mastocytosis 146
+Myalgic encephalomyelitis 147
+Mast Cell Activation Syndrome 148
+Cyclothymia 149
+Hay fever 150
+Alpha Gal 151
+Irritable Bladder 152
+Protoporphyria 153
+Dysthymia 154
+Juvenile rheumatoid arthritis 155
+Carotid artery disease 156
+Heart disease 157
+Syringomyelia 158
+burning skin 159
+Tummy ache 160
+Neurogenic Bladder 161
+Dry eyes 162
+Lupus 163
+selective polysaccharide antibody deficiency 164
+Parkinson's disease 165
+Stroke 166
+itchy skin 167
+Osteoporosis 168
+Secondary hypertension 169
+Scleroderma 170
+Factor V Leiden 171
+Histamine intolerance 172
+Postural Orthostatic Tachycardia Syndrome 173
+Food Intolerances 174
+Dry mouth 175
+Obesity 176
+Tendinitis 177
+Seasonal Allergies 178
+C Diff 179
+Myasthenia gravis 180
+Leaky Gut 181
+Hashimoto's thyroiditis 182
+tingling hands 183
+PTSD 184
+Tinnitus 185
+Sciatica 186
+ALD 187
+AMN 188
+Craniocervical Instability 189
+Occult Tethered Cord 190
+Cystitis 191
+Primary sclerosing cholangitis 192
+Bile reflux 193
+MCAS 194
+Acne 195
+Pernicious Anemia 196
+vitamin D deficiency 197
+Plantar fasciitis 198
+Indigestion 199
+High blood pressure 200
+Type 2 diabetes 201
+Dystonia 202
+Acid Reflux 203
+ccm2 204
+High cholesterol 205
+Schizophrenia 206
+COPD 207
+Lichen sclerosus 208
+Chronic Pain 209
+Sleep apnea 210
+Sleep disorders 211
+Tension headache 212
+Epilepsy 213
+Binge-eating disorder 214
+Orthorexia 215
+Bile Acid Malabsorption 216
+skin rashes 217
+major depressive disorder 218
+CRPS 219
+Trigeminal neuralgia 220
+Chronic mid back pain 221
+arthrtis 222
+Mixed connective tissue disease 223
+systemic lupus erythematosus 224
+Eye Pain 225
+Cystic fibrosis 226
+Prostatitis 227
+spondyloarthropathy 228
+Urinary incontinence 229
+Angioedema 230
+Dry skin 231
+Enlarged Prostate 232
+Excema 233
+hiv 234
+Hyperhidrosis 235
+Post-traumatic stress disorder (PTSD) 236
+Benign Paroxysmal Positional Vertigo 237
+Degenerative Disc Disease 238
+Adult ADD 239
+Social anxiety disorder 240
+Essential tremor 241
+Psychosis 242
+Spastic legs 243
+Spastic lower body 244
+Spasticity 245
+Takayasu's arteritis 246
+Dizziness 247
+Polycystic kidney disease 248
+Chronic Pancreatitis 249
+Kidney stones 250
+Food allergy 251
+Fluid Retention 252
+numbness 253
+tingling feet 254
+Carpal tunnel syndrome 255
+Rosacea 256
+Low energy 257
+under active thyroid 258
+mouth ulcers 259
+Chiari malformation 260
+spondylolisthesis 261
+Graves' disease 262
+Schizoaffective disorder 263
+SIBO 264
+Chronic Nausea 265
+Jaw pain 266
+neck stiffness 267
+neck shoulder back pain 268
+Eczema 269
+Heart arrhythmias 270
+bloating 271
+hypertension 272
+Muscle weakness 273
+Right arm pain 274
+right hip pain 275
+lower  276
+Myofascial pain syndrome 277
+Tourette syndrome 278
+Migraine with aura 279
+Peripheral neuropathy 280
+trouble walking 281
+Constipation 282
+Foot Pain 283
+pinching pain 284
+dull pain 285
+shooting pain 286
+irritability 287
+Trapped nerve 288
+Heart flutters 289
+Ankylosing spondylitis 290
+silent migraine 291
+Seizure 292
+Nocturnal Emissions 293
+Drug addiction 294
+Menstrual pain 295
+Pseudotumor cerebri 296
+Low oxygen saturation 297
+lymphocytic colitis 298
+Hiatal hernia 299
+Seborrheic dermatitis 300
+pituitary dysfunction 301
+ostheopenia 302
+patellofemoral joint pain 303
+ovary pain 304
+Autoimmune 305
+New Daily Persistent Headache 306
+mood swings 307
+Heat rash 308
+Collagenous colitis 309
+Osteomalacia 310
+Hemophilia 311
+Hepatitis C 312
+anxiety disorder 313
+Hypoglycemia 314
+Rotator cuff injury 315
+Mood disorders 316
+bunion (left foot) 317
+bunion left foot 318
+Bunion Surgery Healing Left 319
+Orthostatic intolerance 320
+Behcet's disease 321
+Occult Spina Bifida 322
+"Chronic Pain - Back 323
+Inflammation 324
+Edema 325
+Chronic illness 326
+Mania 327
+Aortic dissection 328
+Coarctation of the aorta 329
+Bicuspid Aortic Valve 330
+Aortic valve regurgitation 331
+Eosinophilic colitis 332
+Broken Foot 333
+RSD 334
+Lymphedema 335
+Gilbert's syndrome 336
+Flulike 337
+Right Knee Pain 338
+Undiagnosed 339
+Muscle pain 340
+Overactive bladder 341
+Hereditary hemorrhagic telangiectasia 342
+Pet allergy 343
+Soy allergy 344
+Mycoplasma pneumoniae 345
+sickness 346
+Hirschsprung's disease 347
+Intestinal obstruction 348
+Neural Intestinal Dysplasia 349
+Post herpatic pain  350
+oral shingles  351
+migraines  352
+Chronic Back pain 353
+chronic daily headache 354
+Fibroadenoma 355
+HSV1 356
+Undifferentiated Connective Tissue Disease 357
+Babesia 358
+Nonallergic rhinitis 359
+Concussion 360
+csf leak 361
+First degree hemorrhoids 362
+Atypical chest pain 363
+Esophageal hernia 364
+Sarcoidosis 365
+neuro sarcoidosis 366
+Gastritis 367
+Diarrhea 368
+Back pain at worst 369
+Arm pains 370
+Dehydration 371
+Gingivitis 372
+Low sex drive 373
+Sun allergy 374
+Stress 375
+Vulval pains 376
+urge to pee 377
+hand pain 378
+Extreme Thirst 379
+Thirst 380
+Hunger 381
+Binge Eating 382
+Astigmatism 383
+Fibromyalgia Questioning 384
+Mitochondrial myopathy 385
+delayed sleep phase disorder 386
+Menstrual cramps 387
+Chronic pelvic pain 388
+Abdominal pains 389
+Urethra pains 390
+Menstruation 391
+Skin Picking 392
+social anxiety 393
+Mixed Connective Tidsue Disease 394
+Chronic Neck Pain 395
+Extreme Hunger 396
+Bronchitis 397
+Barrett's esophagus 398
+Neurofibromatosis 399
+Sleep-related eating disorder 400
+Hair loss 401
+aspergers 402
+Stretch marks 403
+Rectocele 404
+Crash Day 405
+Head Injury TBI 406
+Polymyositis 407
+Vasculitis 408
+Tonsillitis 409
+Visual snow 410
+Gastritis  411
+Dysmenorrhoea 412
+Crying 413
+Cold sore 414
+Mononucleosis 415
+Uveitis 416
+Cat allergy 417
+Caries 418
+alpha wave intrusion 419
+EDS 420
+Dyshidrosis 421
+confusion 422
+Left wrist pain 423
+TMJ 424
+postural orthostatic tachycardial syndrome 425
+Frozen shoulder 426
+Pinched nerve 427
+Reflex Sympathetic Dystrophy 428
+Rib Dysfunction 429
+Shrunken Ulna Nerve 430
+Multiple Trigger Points 431
+Painful Breathing 432
+Numb Hand 433
+Lymphoma 434
+unknown 435
+Itchy skin (pruritus) 436
+Deep vein thrombosis 437
+Panic attacks 438
+Mitral valve prolapse 439
+Common variable immunodeficiency 440
+CREST syndrome 441
+Schizoid personality disorder 442
+Endocrine disorder 443
+Chronic anxiety 444
+Chronic kidney disease 445
+Reflux 446
+Idiopathic Intracranial Hypertension 447
+psychopathy 448
+Sensory Processing Disorder 449
+eating problems 450
+Fructose Malabsorption 451
+Candida Overgrowth 452
+Hyperthyroidism 453
+Mold allergy 454
+Lactose intolerance 455
+pudendal neuralgia 456
+Rebound headaches 457
+Orthostatic hypotension (postural hypotension) 458
+Postpartum depression 459
+Bulimia nervosa 460
+Dyslexia 461
+Chronic cough 462
+erythromelalgia 463
+Depersonalization-derealization disorder 464
+pains 465
+Joint Hypermobility Syndrome 466
+cluster headaches 467
+Bipolar Type 1 468
+Anti-phosholipid syndrome 469
+Atopic dermatitis (eczema) 470
+Latex allergy 471
+Nickel allergy 472
+Pericardial effusion 473
+ME/CFS 474
+Cyclic vomiting syndrome 475
+uctd 476
+Genital warts 477
+Chronic Regional Pain Syndrome 478
+systemic sclerosis 479
+Post Concussion Syndrome 480
+Low blood pressure (hypotension) 481
+postural tachycardia syndrome 482
+Nonulcer stomach pain 483
+Varicose veins 484
+Achilles tendinitis 485
+Meralgia paresthetica 486
+Atypical depression 487
+Polycystic ovary syndrome (PCOS) 488
+Colonic Inertia 489
+Mitochondrial Disease 490
+Goiter 491
+Chronic hives (urticaria) 492
+Mild cognitive impairment (MCI) 493
+hypersomnia 494
+Hypersomnolence 495
+Premenstrual syndrome (PMS) 496
+Candida 497
+Neocardiogenic syncope 498
+Lethargy 499
+tired
+stressed
+feels
+Went to work
+worried
+saw a movie
+had sex
+doctor appointment
+inventory at work
+ate breakfast
+good sleep
+smoothie
+banana
+nectarine
+spinach
+coconut milk
+mango
+jimmy john's
+comcast >:(
+sinus infection
+caffeine
+exercise
+down
+sad
+holiday
+hot weather
+meditated
+hiking
+happy
+Superlong nap
+household chores
+average sleep
+distracted
+flare up
+exhausted
+keep on moving
+hellish
+painful
+rainy
+very painful
+hopeful
+cleaning
+Anxious
+test
+Good
+wedding
+expectations
+Woke up past noon
+trouble thinking
+diarrhea
+Content
+walked the dog
+bored
+Visited the Park
+Took it easy
+Ran Errands
+coffee
+faitgue
+ice cream
+very bad sleep
+loud day
+nausea
+Warm head
+trouble eating
+poor sleep
+bad sleep
+awake all night
+depressed
+took cold medicine
+vitamin c
+bronchitis
+gluten
+no work
+relaxed
+Unpleasant
+Sore Rectum
+Painful Bowel Movements
+Cramping After Bowel Movements
+smoked last night
+Improving 
+Alert
+Neck & shoulder tension
+busy
+Happy
+Exercised
+Muscle Tiredness
+Muscle weakness
+Alcohol previous night
+Symptoms started at 5am
+Took 10 mg every hour
+Cried
+Emotional
+Lethargic
+Sam's birthday - lots of sugar
+Hand shaking
+Bored
+Gym class
+Tossed and turned all night
+Skipped gym
+Runny stomach 
+anxious
+didn't sleep
+not hungry
+no sleep
+good concentration
+lethargic
+cluster headache
+No Appitite
+Started B12
+got the job!
+Irritable
+migraine yesterday
+alcohol
+Headache
+Rainy Day
+Tired
+Depressed
+driving
+new environment
+lift is broken
+dairy
+low motivation
+school
+really bad day
+lazy
+couch potato
+low food
+insomnia
+anxiety
+finger pain
+work
+woke afternoon
+slept 7 hours
+Foggy
+Cold
+no breakfast
+Lots of work
+Remicade Maintenence
+Canadian Bacon
+Contemplative 
+Endo Appt
+GR 
+Mom's Day
+Ruptured Cyst
+Family Day
+Research
+Rest
+Upped My Glumetza
+Happy A
+Yoga
+TCB
+Regular Day
+Mom's Day 
+Massage
+Car Shop
+Sunday Funday
+RA Flare
+Volunteer
+No Period
+Work
+JBR Meeting 
+At Home
+Infusion 
+Cleaning 
+Beautiful Day
+Rain 
+JBR Launch 
+Massage 
+Tuesday
+Stress
+Upset
+Flare
+The Office 
+Dinner with GR
+Janet
+JBR
+Busy Day
+Emma
+Daveless
+Dallas
+Back Home 
+Dinner with Becky
+OKC 
+Dinner with Janet
+Errands
+productive
+sas
+vacation
+menstruating
+active
+social interaction
+overslept
+slept late
+english paper
+too much school
+low pain
+Semiproductive
+nursing school paperwork
+overwhelmed
+Infection
+feel guilty
+Dentist
+lonely
+slept in
+read a book
+Better energy
+dry mouth
+post-holiday
+karate
+cigarettes
+music
+fantastic
+ear ache
+danced
+premenstrual
+bike shop
+Late lunch
+beach
+obsessing
+anaphylactic shock
+sugar
+period
+bad pain day
+massage
+deep massage
+left the house
+physical therapy
+rest day
+went shopping
+Computer
+Physical therapy
+PMS
+bike ride
+weekend
+ugh
+bed day
+cuddled kitten
+bad work day
+kit gone
+soda
+stress at work
+upset in am
+argument
+threw up
+weak legs
+weakness
+fatique
+dyed hair
+hard waking up
+"elbows
+First Acupuncture Treatment
+Went to concert
+stayed home
+Excited about weekend
+good
+walked 2 miles
+ibs issues
+last day of period
+anxious afternoon
+adrenaline rush
+depressed morning 
+better after sitting in the AM
+energy and motivation in afternoon
+moody and angry easily
+probiotics
+sitting
+travel
+trouble getting up
+Stomach hurts
+hungry but not hungry?
+suicidal
+disoriented
+fucking miserable
+angry
+better
+dizzy
+humid
+food fail
+packing
+garden
+good weather
+went outside
+overdid yesterday
+forgot meds
+forgot paracetamol
+hot and humid
+positive action
+cool day
+job interview
+tooth infection
+cold
+freaking out
+Netflix day
+good doctor's appointment
+very long day
+accomplished stuff
+Left knee gave out twice
+bad weather
+had energy
+argued
+worse
+fine
+functional
+in pain
+hopeless
+Starting my Flaredown log today!
+emotional hangover
+had heavily spice food
+Wheelchair outing
+weekday
+psychologist visit
+small outing
+left house
+Slept well
+Ate once
+slept well
+symptoms occured late in day
+Groceries
+accomplished
+Pain
+dislocation
+crisis
+conflict
+ate dinner
+took meds
+good conversation
+over ate
+blood test
+slimfast only
+jogged
+slimfast
+carrot sticks
+walked
+curry
+Migraine
+have cold
+cough
+VLCD
+Walked
+Broke VLCD
+Angry breakup
+ate pizza
+rambled
+Ultrasound scan
+In pain
+not working
+spent day with others
+not stressed
+not in a rush
+going outside every day
+baddish day 
+Low sleep
+diarhea
+temperature control problems
+little sleep
+migraine
+nightmares
+migraine day
+bad eds day
+weak joints
+frequent dislocations
+aura migraine
+sick
+ibs flare
+colonoscopy
+skipped dinner
+Puppy
+left work
+scope prep
+travelling
+thai food
+one beer
+one IPA
+impulsive
+slept a lot
+vomited
+itchy
+hot
+weak
+moved furniture
+melancholy
+very tired
+pain
+worked
+falaffel
+filmed
+kept occupied
+anxiety attack
+finals
+doctors
+exam
+eye fatigue
+clarytin works better than store brand
+scared
+couldnt focus
+motivated
+unsettled
+late sleep
+family
+was social
+stuffy nose
+hotel
+lack of sleep
+studying
+spaced out
+burstitis
+changed fentanyl patch
+achey all over
+drawing
+studied
+Sad
+breakfast
+out of the house
+barometric pressure change
+holidays
+relaxing
+self care
+eyes hurt
+slow morning
+withdrawals
+ate out
+Rather bad sleep
+ottawa
+bouncing back
+shopping
+clean eating
+come back
+back home
+saw a friend
+injury
+pushed physically
+Stayed on diet
+yoga
+good spirits
+Frustrating
+at home
+eating out
+hard to walk
+mostly alone
+fever
+flare
+on home-rest
+Fight with Vee
+went out with friends
+with family
+Surgery recovery
+with friends
+not enough sleep
+half crash
+beer
+napped
+WFH
+Mindfulness on road
+jet lag
+Stayed at home
+social gathering
+Gave speech
+sore foot
+confident
+had therapy
+marijuana
+worked in studio
+"very
+liquid diet
+recouperating from eating too much sugar
+stess
+dr appointment
+arthritis
+cane
+friends
+surprise
+mild candida flaire-up
+terrible sleep
+rheumatology
+allergy shot
+logged later
+headache
+pudding
+crackers
+off-roading
+mourning
+yard work
+feet tingly
+yard work 
+missed dinner
+salad
+trip
+cajun
+video games
+construction
+heavy physcial exertion
+drinking
+model trains
+too much gluten
+walking
+cookies
+oatmeal
+gaming
+socialization
+trouble getting calories
+worked on basement
+good day
+worked outside
+schedule change
+Very productive
+breakdown
+unproductive
+woke up late
+withdrawal
+insomnia last night
+coursera
+Breakfast
+family stress
+flareup
+healthy dinner
+cleaned
+day improved
+upset stomach
+excitement
+shabbat
+synagogue
+good breakfast
+Toastmasters
+dehydrated
+crash and burn
+low anxiety morning
+resolution in dreams
+made challah
+cooked
+determined
+got vitamins
+clear headed
+heavy
+too much activity
+hurting
+Low work stress
+Okay
+dozed
+Bad day 
+Dog had seizures
+jog
+miserable 
+strange
+no digestion
+gassy
+day after weights
+work + times square
+post LARP
+slept all day
+day off
+Average
+sore
+slept ok
+pms
+calm
+jetlagged
+Quiet
+unhappy
+not enough sleep 
+sun exposure
+Assignment Due
+bad
+Recovering from Migraine
+midcycle
+roller derby
+ovulation
+weightlifting
+bad dreams
+Melbourne
+Normal
+lost to found
+apathetic
+night energy
+strong energy then CRASH
+"PMS
+Just started Awakening Level 3
+Visiting Solihull
+spicy food
+Went to Steveo's Last Night
+Just Back from Robert Waghmare's
+very stressed
+aikido
+tattoo
+high sodium
+Back ache
+feeling negative
+sex dream
+chilled with emma woodhouse yesterday
+ate spicy food yesterday
+Just Back From Business Trip
+Blocked Sinuses
+Rought sleep
+"At Home In Albery Way
+drop attack 1
+ate meat yesterday
+high salt
+spicy food yesterday
+emotional dip yesterday
+low stress
+stressful
+Mystic SMF
+social
+high stress
+swam
+busy at work
+lots of walking
+Started Deeper Holosync Track
+Woke Up With Alarm
+Thick head
+ate late last night
+Coaching Session Yesterday
+had coaching yesterday
+ate lunch
+physical activity
+laundry
+chores
+went out yesterday
+restless sleep
+solid food
+Irritated
+exercised
+symptom free
+saw samantha
+had pelvic PT
+no coffee
+skipped ADD meds
+mmj
+masturbated
+hard to think
+not forgetful
+hard to wake up
+stayed up late
+day after glutening
+low activity level
+zonked
+tiny breakfast
+good mood
+ants!!
+decorated a cake
+daytime zonk
+visited dispensary
+glutened
+ketones
+work from home
+empty reservoir
+Day after travel
+scott away
+saw friends
+strength exercises
+bad pump site
+posted story
+good mental day
+long walk
+co-op
+farm work
+bread
+cheese
+yardwork
+time with friends 
+ate tomatoes
+ate rice
+way off the diet train! :(
+loved work!
+time with husband
+flu shot
+tiring day at work
+first full day at work
+DONE being addicted to food
+feeling sick
+ate salsa
+lara bars are BAD
+first day on the job
+family time
+jeff gone
+sore throat
+intentional living
+reading and relaxing
+more orientation
+"ate tomatoes
+"good times with friends
+singing
+caved on dairy again
+stressful day
+emotional day
+small group
+chuck's funeral
+emotional
+grief
+ate HORRIBLY over the weekend
+food hangover
+ate cheese-again
+new job tomorrow
+ate rice last night
+ate corn today
+swimming
+overeating
+fulfilled
+office work
+standing
+no walk
+fun at work
+new job!
+skipped strattera
+first day of work
+training at work
+too much information meant i couldn't sleep
+dinner with friends
+woke up early
+child sleepover
+low energy
+10K steps
+Home Day
+12K Steps
+Mommy Eli Morning
+8k steps
+head pain
+Weekend away from home
+Kayaking
+Bad Cold
+Car Travel
+Last day of three day vacation
+kayaked yesterday
+Head and Chest Cold
+Day of Rest
+relapse yesterday
+doctor visit
+first day of period
+post relapse
+inactive
+Daytime nap
+rain
+period end
+busy week
+Mom visiting
+Children's Museum
+Busy past week
+Fatigued
+Back Seizing
+emotional stress at night
+day of rest
+psychiatrist visit
+7k steps
+support group
+6K steps
+PT Knee Excercise
+Gardening
+left group
+3 hour nap
+Period
+dmv
+med resistant migrsine
+didn't use cpap last night
+15K steps
+lots of standing
+5k steps
+Socialized
+tired 
+jumpy house birthday party
+no school for kids
+CPAP issues
+Cranky
+4k steps
+CT scan
+11K steps
+11 days sober
+17K steps
+new bed
+minimum day school
+3K steps
+stood at party
+Turned compost
+Pruned flowers front yard
+self manicure
+psychiatrist appointment
+14k steps
+School Volunteer
+Right side migraine
+13K steps
+Night sweats
+Left side migraine
+Slept in
+morning migraine
+Mal
+Mall
+Wrote
+16K steps
+20K Steps
+Walkathon
+Pedicure
+2K steps
+right side migraine
+party previous night
+School Holiday
+Cold 
+no exercise
+uneventful
+got hair colored
+ate gluten
+Standing
+Walking
+10k steps
+Not home
+Car travel
+11 hours of sleep
+little walking
+slept long
+didn't leave the house
+moved house
+unpacking
+went to work
+moving
+fun
+b12 shot
+forgot cymbalta
+back on track
+"hungover
+slept at ben's
+smoked
+stayed at ben's
+getting sick?
+extreme heat
+frank died
+Day off
+bad headache day
+festival
+ben stayed over
+drugs
+sticky shift
+"beach
+drank last night
+Rehearsal
+Good day
+rehearsal
+bleeding
+alcohol yesterday
+headcold
+oh god
+left school early
+Drastic weather change
+really awful day
+Big storm
+rain tomorrow
+Melting into the floor
+felt sick
+no stress
+rain tomorrow 
+intense bowel movements
+everything smells awful
+feel sick
+everything tastes off
+My head
+Feel Weak
+Feel Shakey
+It was going to rain
+so tired
+awful
+groggy
+Missed Nabilone
+Missed School
+Lots of pills yesterday
+climbed stairs
+In the heat
+Upset stomach
+i'm sick
+bleh
+jaw pain
+fatigue
+oversleeping
+yeast infection
+i'm ok
+allergic reaction
+sleepless
+eczema
+cramps
+overheated
+frustrated
+childish
+suicidal ideation
+afraid
+good tired
+hungry
+spotting
+loss of appetite
+confusion
+fog
+gross
+menstruation
+gum pain
+toothache
+earache
+so much pain
+neck pain
+off meds
+off my meds
+crying
+can't sleep
+ovulating
+tooth pain
+dentist visit
+icky
+neck ache
+tooth ache
+shoulder pain
+neckache
+shoulder ache
+backache
+food poisoning
+jaw ache
+ultrasound
+itchy eyes
+congestion
+ toothache
+left leg pain
+right knee weakness
+convention day
+sore legs
+knee pain
+throat pain
+body aches
+chills
+hip pain
+leg cramps
+congested
+ovarian cramps
+sleep paralysis
+forgot one dose of meds
+chest pain
+choking
+black dogs
+back pain
+middleschmertz
+paranoia
+cramping
+shortness of breath
+panic attack
+hyperventilating
+difficulty breathing
+dental work
+focused
+physio
+neck massage
+sore shoulder
+free
+content
+cleansing
+aftereffects
+low productivity
+very productive
+awake
+nauseated
+benadryl 
+sleepy
+Bad sleep
+Stressed 
+Shake wake up
+IViG
+wore bad shoes
+shakey before bed
+On feet
+heat
+over caffeinated
+chore day
+housework
+high activity
+foot pain
+reactive
+fixed dog cable
+fuck this disease
+Bad day
+assignment due today
+schoolwork
+neck tension
+decaf coffee
+drank wine last night
+cut right index finger
+POTS
+orthostatic intolerance
+Hot
+Stress 2
+stress 3
+drinks
+tough half marathon
+ativan
+stress 2
+a cold
+drink
+large pastry
+long run
+stress
+shallow breathing
+bad lunch
+drive to balt
+tough run
+mangos
+med long run
+tough long run
+ME 
+sharp nerve pain
+college
+stressed 2
+ate dairy
+ate garlic
+walk-20 minutes 
+low motivation 
+chill day
+99.5 fever
+1 slice of cheese 
+wrists hurt
+in the sun
+different msm brand
+lower dose of msm
+loose joints- wrists & shoulders
+1 slice of cheese
+dark stools
+can't focus
+99 fever
+hot & cold feeling
+ate a bite of something with garlic
+socialized
+99.6 fever
+ate dairy 
+grilled cheese
+slept awful
+advil
+very hot weather
+ate a slice of cheese
+treadmill
+weights
+bicycle
+sore from workout
+muggy weather
+loose joints
+bone broth
+gross feeling 
+bolted
+less hungry
+sauerkraut
+eggs
+Very long sleep
+Visited Family
+light sleep
+short sleep
+stomach pain
+SB diet
+no gluten
+Caregivers Group
+cold weather
+Exhausted but pushed through
+day at home
+medical tests
+feeling sad
+flat
+day after heavy symptom day
+hot and humid outside
+boring
+weepy
+feeling a burden
+day 14 of cycle
+side-effects
+procrastinate
+can't think
+PC 
+crash
+cramp
+low back
+psychiatrist
+overdid it
+craving sweets
+PTSD
+drained
+slow day
+ligt activity
+ribs
+foggy
+storm coming
+can't cope
+unstable weather
+super tired
+slept poorly
+so-so day
+migraine early in day
+napping
+travel day
+better day
+busy day
+too much activity 
+very disorganized
+can't stay awake
+lots of napping
+really tired
+moderately productive by end of day
+diminishing energy
+"better
+super tired in morning
+Nice day
+"but
+great day!
+too much house work
+too much chaos
+Great energy today!
+Clear brain
+Feel great!
+lots of energy
+lots of house work
+slightly better
+"Pretty rough
+fairly good day
+not quite as active
+hybrid day
+good morning
+not so good afternoon
+really bad moon cramps
+good day!
+good energy
+crash day
+yuck
+much better day!
+end of crash!
+so so day
+too much social interaction
+great energy today!
+able to do a lot!
+almost too much energy
+"so far
+wicked back pain
+small breakfast
+no nap
+went out
+great pain all over
+made dinner!!!
+long school event @ night
+"crazy
+so-so
+quite tired
+spent day in bed
+Felt better after walk
+Felt rested in the morning
+Did not sing in church
+Anxious when not active
+Bible study night
+Anxious about work
+Hangry
+Neurologist appointment
+worn out
+Headache after exercising outdoors
+No milk
+Long drive
+At Mom and Dad's
+Legs hurt in evening
+Rested in evening
+Slept mostly
+juiced
+tired from insomnia
+more active than normal
+did squats
+epsom salt bath
+got dressed
+read science book
+Not a work day
+Awesome cheat day
+Allergic reaction to D-ribose
+Day 2 of D-ribose allergy
+Great day!
+Lots of energy
+Another great day!
+Super productive!
+Tired in the evening
+too much work?
+Afternoon mini flare
+crazy day with the dog
+too much to do
+Really productive day
+hip tightness in evening
+Great day! Very tired at night
+Too busy
+Emotionally wrung out
+Before final exam
+disinterest
+Recovery
+Worked in office 
+First day relapse 
+First day relapse
+incident
+No Energy
+saw doctor
+shiatsu
+excellent
+very symptomatic
+treatment
+very low energy
+parents
+infusion
+bedridden
+Inactive
+High heels
+Moderately active day
+Lightheaded when brushing hair
+Had to leave work
+Cancelled activities
+Made dinner
+Visiting family 
+large lunch
+Restful evening
+No Exercise
+no dairy
+cvs trip
+Symptoms made worse by activity
+Loss of vision
+Heart beating strongly when horizontal
+feeling quiet
+medium tiredness
+chocolate
+deep sleep
+ff tactics
+slight anxiety
+Active
+few symptoms
+medium sleep
+event
+discouraged
+upset
+walked around town
+Recovery 
+Off work 
+Relapse 
+9 hours of sleep
+7.5 hours sleep
+6.5 hours sleep
+3.5 hours sleep
+More than 8 hours of sleep
+cloudy
+just woke up
+sore elbows
+grumpy 
+grumpy no reason
+yawning non stop
+pork chop
+sore back
+slight joint pain
+pressure in chest
+knees sore
+ankles sore
+sore upper back
+fear farm
+sore knees
+sore hip
+cardinals game
+sore joints
+light headed
+Feeling bleh
+chest hurt
+ohv ride
+sore neck
+elbow sore
+feeling sick to stomach
+dizziness
+achey joints
+dry eyes
+right knee pain
+toes hurt
+very dry eyes
+sore eyes
+peed the bed early this morning
+expo
+elbows sore
+neck headache
+numbness in toes
+sore hips
+right ankle pain
+ate cooked nightshades
+afternoon coffee
+Poor eating habits
+skipped breakfast
+light breakfast
+sensitive to screens
+drank wine
+ate potato chips
+light lunch
+green tea
+Possible cross-contamination
+Low-grade fever
+Mild nausea
+draining sinuses
+large breakfast
+risk of cross-contamination
+getting over a cold
+short walk
+face rash
+ate eggs
+chiropractor
+lacking vegetables
+ate potato
+ate peppers
+green juice
+no caffeine
+short workout
+Daylight savings start
+>50 oz water
+bad sleep last night
+hungover
+outdoors
+drive
+woke at noon thirty
+injection site reaction
+ptsd
+flare?
+feel like shit
+not good
+TDoR yesterday
+long
+mildly stressful
+broke eating schedule
+legs hurt far more than usual
+piercings stretched
+stiff everywhere
+no stress as far as I can tell
+left foot partly numb
+internet guy came
+walked too much
+went to all the stores
+day after an open air concert
+long car ride
+long drive
+day after a wedding party
+Hot hot hotter
+Silvester
+worse flare yet
+had PT
+couldn't sleep because of pain
+anxiety because of pain
+lower back pain
+extremely sensitive teeth
+soy products
+Waking up sweaty
+soy
+vibrator
+mild headache
+healthy lunch
+many symptoms
+accupuncture
+tidying lab
+Stuffy nose
+Friends
+recovering from drinking
+thanksgiving
+Angry
+Exercise (long walk)
+Portuguese Exam
+Exam
+Trip
+House cleaning
+Classes
+Got up easily
+Biking
+Crying
+Self Loathing
+Parental Conflict
+Rebirthing
+didn't really eat lunch
+CBT Therapy
+Christmas
+Good Sleep
+classes
+Low confidence
+cooking
+forgot lunch
+stayed busy
+got stuff done
+restaurant
+phone at night
+20 minute nap
+vacuum 
+dishes
+low tv 
+cystic face
+staph
+alert but argumentative in morning
+fell back asleep unaware
+3 hours sleep
+"tired
+eye strain
+period ending
+woke up with dry eye
+couldn't sleep
+candy
+10 hours sleep
+tv marathon
+couch day
+cereal
+slept through alarm
+Went out
+abdominal pain after sex
+didn't poo
+British Oak vegan fest
+hot dog
+"scrambled veggy tofu
+veg-o
+counselling
+pear
+acorn squash & apple mush
+"scrambled tofu
+neck spasms
+vacuuming
+endless legend
+ran errands in town
+facial spasms
+used mouse for browsing
+foot spasms
+early wake-up
+paperwork
+leg spasms
+used touchpad for browsing
+eye spasms (both sides)
+foot spasms both sides
+dragon age
+bunged up
+core muscle spasms
+arm spasms
+backpack
+stomach acid
+hand and face physio only
+DS
+netflix
+no hand physio
+read book
+bins
+used PS4 controller for browsing
+phone calls
+full-body spasms
+read NHS powerpoint
+youtube
+cancelled plans
+fluish feeling
+only hand physio
+had sex last night
+RP!
+browsed with touchpad
+early-ish night last night
+STI check
+path of exile
+NBIP
+cuddles!
+podcasts
+washing up
+no right hand physio
+eye spasms
+no eye shield last night
+hand spasms
+fallout
+blowjob
+read paper
+rheumatologist
+facial spasms (both sides)
+leg spasms both sides
+wrapped present 
+wiki
+late night last night
+train from st. neots to durham
+civ
+headphones
+heavy bags
+Lizzie
+listen to music 
+drove cal home
+"olives and celery
+apple and blackberry crumble
+coco pops
+subway
+cabbage and potato curry
+A & E
+mini golf
+big burger
+woke up without alarm
+church inn
+Julien
+palpitations
+Nik
+Sarehole Mill
+stomach cramps
+melon
+tv - psych
+yoghurt and prunes
+crumble and ice cream
+Vegan grindhouse
+minestrone
+pasta
+Moseley Bog
+"evening illness - gassy
+visited Derek
+good bowel movement
+pizza
+spicy mock beef
+saw Izzy yesterday
+3 and half years
+mr singh's
+May
+chickpea and rice soup
+fry up breakfast
+Derrick ill
+headache evening
+soup
+porridge
+licorice
+vegg
+chilli
+corncakes
+tyre-fixing
+avocado bun
+Peace Church
+"salad
+orange and verveine tea
+unsettled tummy
+Church
+avocado lunch
+mild nausea late afternoon
+late to bed
+Acupuncture
+reading
+porridge and molasses
+rainbow belts
+curry lunch
+dumpling stew
+twice baked potatoes
+Jeremy Corbyn
+stress: no going to Kent
+CT scan and mannitol
+chilled with friends
+Richard at Faith Centre
+awesome mushroom brunch at Arco Lounge
+did not sleep alone
+ate too much
+did not to any work
+s-log
+Good AM GI
+gossip by others
+spin
+MONDAY
+Off work
+didn't sleep well?
+Hungry
+6 hours sleep
+Ambien night before
+troy's birthday
+ran errands
+hot car long drive
+watched tv with troy
+temecula
+better than yesterday
+daily show marathon
+virus?
+"better than yesterday
+cold?
+very fatigued
+12 hrs sleep
+muscles ache
+pork
+cauliflower
+chicken
+mint chocolates
+avocado
+got new computer!
+acorn squash
+sweet potato
+golden beet
+chocolate chips
+cashews
+3 brazil-nuts
+slightly spicy pepitas
+chia pudding w coconut cream &sugar
+pukka licorice cinnamon tea
+orange ginger juice suja
+upset stomach - gurgly and unhappy
+sac city college shooting
+late bedtime - 2:30am
+watched tv - hugo and star trek tng
+apple -cooked
+coconut flakes
+chia seed pudding with coconut milk 
+brazil nuts -2
+"cashews
+lettuce
+lime juice
+olive tapenade
+wine salami
+raspberries
+up early - 10:45
+canceled going to see jenny
+"amys farm
+watched tv- star trek tng
+lettuce mix
+limes
+fuck yeah avocado
+carrots & strawberries w maple rub
+cashew ice cream
+slept 12 hrs & not rested
+"up at 2pm
+dried fruit & pumpkin seeds
+"brazil nuts
+headache - 4 hrs
+hungover feeling
+4 hrs sleep
+computer switching
+rosa tele-apt therapy
+troy made tacos and salsa
+tomato
+red pepper
+txted joaquin
+peppermint tea
+allergies
+walked with cane
+severe pain
+did chores
+disrupted sleep
+walked dogs
+ate bread
+ate wheat
+minor joint pain
+tingling hands
+late night
+migraine hangover
+sinus pain
+osteopath visit
+no tingling hands
+whole30
+market day
+midday wake-up
+wrote
+midnight to noon
+outing
+sore wrists
+daytime nap
+no writing
+volunteered
+washed dogs
+very foggy
+specialist visit
+woozy
+exercises x3
+exercises x1
+exercises x2
+exercises x4
+ate sugar
+joint pain
+ate grains
+ate butter
+stayed awake too long
+30+ weather
+high pollen count
+blocked sinuses
+35+ weather
+daytime rest
+sinus congestion
+post-nasal drip
+daytime sleep
+visitor
+ate legumes
+visitors
+phone conversation
+ate a2 dairy
+nasal congestion
+presentation at school
+homework at work
+crafted
+grouchy
+dead to start with but improved as the day went on
+worst reaction to the broth powder
+sent apologies to kate and claire
+ehhhhhhhhhhhhhhhhhhhhhhhh
+which didn't go so well
+Encouraged about GI
+lots of thinking
+brushed my teeth finally
+had a bit of a conversation with claire and kate
+but i guess we'll see
+netflix and sulk
+and better since dropping back the equ
+but yeah i've been tense so my apetite's been rubbish
+kinda died
+and stayed awake wayyy too long
+oh and i had a nap
+a bit better after my crash from the shower
+shoulder was a bit sore again this morning
+did a semi bath
+and kind of died
+had a shower! finally!
+but i think i've found a solution
+okay really kind of died
+"so yeah
+an email from kate
+must be sleeping on it funny
+and i got all psyched up thinking about the sibling situation
+and organised my cross stitch supplies
+Claire and Kate came over with the kids and it wasn't pretty
+more convos with Claire
+stayed up a bit long
+yay adrenaline
+18 and a half hours apparently
+really awful nausea
+and a fever that almost made me pass out on the toilet
+and esther came over
+and did a bit of organizing
+Erin and Elyse came up
+also only had 5 hrs of sleep last night
+didn't have much pms tho
+probs because i was happy with elyse and erin here
+also first day without the girls
+tony came over and it was nice :)
+but i'm a lot better all round today
+alone time
+think i'm coming out of the crash
+blood pressure low too ~106 over 65
+did wayyyy too much
+afternoon fatigue
+afternoon body pain
+shower
+not a bad day
+messed up meds
+tony's coming tomorrow
+big argument with claire
+haven't properly crashed yet
+so waiting for that to happen
+starting to crash properly now
+fragrance reaction
+the cold pillow's working nicely tho
+much better than the last approx 3 weeks tbh
+pulse was a bit low at ~90 bpm
+missed the check in yesterday
+it was a pretty bad day
+but a much much better day after that
+nap
+looking forward to relaxing now tho
+messaged tony
+suuuuuuper tired today
+heavy limbs etc
+crashing properly now
+i HAVE to take it more easily tomorrow
+painted my nails
+rough start after a 12 hr sleep
+sorry a 20 hr sleep haha
+and now i'm kinda dying
+did wayyyyyyyyyyyyyyyyyyyyyy too much again
+didn't go to class
+hand pain
+replied to griffith
+Harried
+had a bit of a rest day
+partly cloudy 
+josh and james and the boys visited
+a bit better off for it i think
+a lot of muscle pain from washing my feet yesterday
+took it a fair bit easier today
+also very hot day
+and a bit of stomach pain just from things being slow
+accidentally slept 19 hrs
+but hopefully it won't take long for it to crash
+then i can work on recovery
+Warped Tour
+washed and exfoliated my feet
+i think i'm dying
+"not literally
+hair cut and quick hair wash
+argument with claire
+"same meds i just can't be bothered listing them
+though i also think i've triggered a long-term adrenaline run
+there needs to be a ++extremely active thing for fatigue
+argued with claire
+office day
+Panic Attack
+7:30 am flushing
+group meeting
+City Center
+>10k steps
+wellness walk
+low carb meals
+high water consumption
+enamel work
+afternoon nap
+fangirl day
+bad throat
+signifcant fatigue
+attended theater
+Lots of carbs
+2 cocktails
+completed assignment on time
+late meals
+no food until well after noon
+late meds
+sore back in morning
+Possible LH surge
+camping
+fibre
+camp setup
+New face products
+late with evening meds
+team outing
+possible whooping cough
+sinus infection diagnosis
+one cocktail
+event day
+brunch
+mint tea
+hydrogen peroxide rinse
+came home sick
+medium stress
+afternoon tea
+90 minute massage
+yogurt and fruit
+sunbutter toast
+stillllllllllllll recovering from Christmas
+light activity
+out and about
+painting class
+over 5000 steps
+minimal snacking
+> 40 oz water
+no air conditioning
+broke a tooth
+fangirl date
+dinner out
+Emotionally Drained
+sudden nausea after lunch
+creative
+sinus infection treatment
+coughing
+2pm tight sore shoulder
+Sugar in evening
+inflammation
+high inflammation
+one glass of wine
+raked leaves
+Candy
+Soda crackers
+Blueberry ginger ale
+Oatmeal
+Egg Salad
+Bread and Butter
+Chicken Stir Fry
+Brown Rice
+took all meds
+Soy Sauce
+Coffee with sugar and cream
+turkey sandwich
+pasta alfredo
+doritos
+milk
+maple syrup
+pancakes
+butter
+beef soup
+chipotle
+too much
+beef stew
+cereal and milk
+cinnamon cake
+walked around block
+sedentary
+mexican dinner
+late day vitamins
+half margarita
+enchilada
+chow mein
+cream cheese wantons
+sleepytime tea
+chinese veggies and rice
+church 
+soy sauce
+risotto
+green beans
+chicken piccata
+toast
+popsicle
+chicken soup
+eggs florentine
+chicken wild rice
+toast with butter
+skype (15mins)
+sushi
+dizzy (pm)
+Shower
+Singing
+Doctor's Appointment
+Becca Home (for Summer)
+Noisy
+Chinese
+Found lump
+bath
+magpie
+almonds
+veggie pizza
+haunted house
+double zyrtec
+public transportation
+flaxseed and fybogel
+pie
+BLT
+french fries
+egg white dlite
+spinach risotto
+ginger ale
+haircut
+chicken wild rice soup
+thanksgiving dinner
+phone call woke me up
+caesar salad
+olive oil
+went through old books with mom
+headspace
+cinnamon roll
+Stress: 2
+hangover
+moderate weather
+essay
+interview
+chilly
+Stress: 3
+warm weather
+balmy weather
+sunny
+Sheringham
+ate badly
+chilly weather
+sexual activity
+warm
+Stress: 1
+muggy
+spice
+jaw clenching
+acid
+muscle soreness
+heavy head
+nighttime pain
+spicy meal
+hot bath
+heavy lifting
+gynecologist
+moving furniture
+low physical activity
+gray weather
+went swimming
+ate well
+fatigued
+depo-provera shot
+long day
+warm day
+relaxed day
+rainy day
+lazy day
+leg pain
+sunny day
+blood taken
+back ache
+chilly day
+"chilly
+acidy day
+bloated
+energy
+gig
+burlesque
+cream
+constipation
+ill day
+foggy day
+demotivated
+stomach cramping
+"rainy
+fast food
+very sleepy
+ill
+Costo flare
+Pain easier
+Wind
+nope
+might still be on the adrenaline run from christmas
+bit hard to tell though
+had a 21 hour sleep last night
+hopefully a long sleep tonight will end it anyway
+must have needed it
+bit of a better day
+better mood too
+think i miiiiiiight have recovered from christmas
+popcorn
+Bloated
+new allergist first shots
+Cramps
+Had a shower
+still on keflex
+finger looked normal today
+finger still swollen but slightly better
+dust
+oncoming sinus ick
+skipped party
+wake noon
+late vitamins
+8.75 hours sleep
+meds as normal app wont remember them
+samhain
+cut toenails
+FD got annoying
+Eye Exam
+"blood test
+8.5 hours in bed but not sleeping
+couldn't sleep because homework
+low fodmap
+changed flaredown meters
+Chocolate after 6pm
+Fun reading
+badly stubbed toe
+bacon
+DST
+10.5 hours sleep
+sinus
+fodmap diet
+sauna
+allergy
+crashed today
+house cleaning
+boston
+amtrak
+neded ac for sleep
+dr visit for sore finger
+started keflex
+Esther came over
+brownie breakfast
+8.5 hours sleep
+hate school
+brushed my teeth
+Sophia and Declan visited
+3 hours homework
+12 hours sleep
+distracting work stuff
+Have a cold
+crashed
+after running on adrenaline since monday
+headaches still absent or mild since starting N
+but we'll see
+got a new mouse
+will hopefully fix my elbow problem
+Naltrexone still seems to be going well
+jewelry crafting
+baking
+sekhmet candle
+izombie
+had a shower
+Dr Perel appointment
+chest pain seems to be gone now
+which is good
+still think it was muscular
+will be seeing the gp tmrw
+Kate brought Hamish over yesterday
+easy day
+hate everyone coughing
+bpal diffuser bedtime
+major chores
+siracha
+home all day
+claire sophia declan kate and hamish came over
+waaaaaaaaay overdid it
+kinda dying now
+also my stomach didn't like the frozen coke
+blood moon
+lol
+Visit from Kate and Hamish
+Visit from Declan
+visit from Josh
+cut my hair
+probably shouldn't have
+my energy and adrenaline have been weird today
+still haven't crashed properly from Dr Deed's appointment
+had a 16 hour sleep last night
+which was cool
+and i seem to be able to stay up longer
+without any issues
+instead of just the 12 hrs then crashing
+thanks naltrexone!
+didn't get a good sleep last night
+"but hopefully will tonight
+kind of dying from yesterday
+but had a rest day today
+big blood test
+feeling better now after the last two days of blood moon hell
+Massive stomach event
+not sure what caused it
+day 1
+did the treatment thing too
+cut my nails
+and toenails
+"Audrey
+finger still improving
+Audrey and Dom came over
+and we played lotr trivia
+so i'm kinda dead
+third day of arguing with Claire
+today was less intense than yesterday and the day before
+also i had a shower yesterday
+finished Keflex
+also chamomile is evil
+in every form
+some new myofacial pain
+just a bit though
+shaved my legs
+for the 2nd time this year lol
+some mild chest discomfort
+possibly lung-related
+Nay came over
+started Naltrexone!!!
+headache seemed to get better after N
+dunno tho
+Hamish's birthday
+pretty nasty day
+upping Naltrexone to 1mg alternating with 0.5 for two weeks
+stomach a bit off with Keflex
+did some metal stamping
+another massive kerfuffle with the siblings
+started Equilibrant
+claire debacle 2.0
+bit of adrenaline from that
+4th sickaversary
+hot day
+headache still seems to be mostly absent
+brushed my teeth yesterday
+cut half my nails today
+will try for a bath tomorrow
+did lots of cross stitch
+Dr Deed appointment
+headaches continue to be absent or mild
+which is awesome
+don't want to jump to hasty conclusions
+might be getting a cold
+had a sore-ish throat
+elbow getting worse
+getting a new mouse soon
+started cutting my nails
+odd day
+was dizzy for the first half
+i think it was a crash from going to the er
+"but then i had a 7 hr nap
+now 14 hrs later i'm going back to sleep
+chest pain is still gone
+day one of keflex
+nose thing
+a bit worse
+had to lie down more
+missed some vitamins
+cut my nails and toenails
+chest pain still
+went to emergency but they didn't think it was super concerning
+now i think it might be more muscular
+been there for about a day and a half
+maybe two days
+"gonna try heat on it tonight
+2nd day on keflex
+had an argument with Josh
+very stressfull
+audrey came over
+a little better than yesterday
+my joints and muscles aren't so yikes
+had shower
+had an 18 hour sleep last night
+don't know where that came from
+esther came over!
+and i made a pincushion
+and posted my blog post on fb
+some really bad back pain
+had heat on it half the day
+ending the day with a bit of dizziness
+wow what a bad day
+found out my leave of absence got rejected
+stressed out about The Conversation with Claire tomorrow
+"and apparently Josh will be visiting tomorrow too
+Whooo fun week
+kate and claire came over for The Conversation
+and then Josh came over later with Mars
+And so now i'm dead
+also my right jaw joint is really ouchy
+not sure what's causing it
+it's been slowly getting worse for about a week now i think
+If it's not better by monday i'll have to see a dr
+day after The Conversation
+ceiling fan installed
+watched Easter Parade
+not sure what my crash is doing
+i seem weirdly okay
+which probably means it will all blow up in my face soon
+yay
+a bit of stress
+also expecting the blood moon in the next day or two
+"hot day
+lol she didn't brush my teeth tho
+day one yesterday
+plus lots of headaches
+and a bit of dizziness
+and today Kate and Josh came over
+mostly to talk about their opinions on the bathroom thing
+and i've had a few headaches today
+a bit of nausea
+and some abdo gas pain 
+nothing much happened today
+EXCEPT THE CACW TRAILER COMING OUT
+I DIED
+so i kinda died
+had a headache for a lot of today
+partly because i was dehydrated after a 16 hr sleep
+helped put up the christmas tree
+and did the tiny one in my room
+tried to talk to josh about all the stuff he said
+was fairly unsuccessful
+mostly only succeeded in getting stressed out
+"today was a bit of a drag
+now i'm fine
+had a smidge of the chest pain again
+but it only lasted a minute or so
+pretty rubbishy day
+got a bit better closer to the end though
+long day yesterday and then a long sleep
+so i was a bit dehydrated when i woke up
+and ive had a headache on and off all day
+with a bit of nervy nausea thrown in
+did a lot of cross stitch
+and some drawing
+was pretty dead for a bit after that
+but recovered okay
+also cut my nails
+finished cutting my nails
+cut my toenails
+the stats don't seem so bad
+bad still had a pretty bad day
+but*
+not as bad as last month though i don't think
+so that's something
+subluxed my left hip a bit
+but i got it back in fine
+muscles are still a bit sore though
+also Kate and Hamish came over
+washed my face and exfoliated
+that weird stabbing pain in my heel happened again
+idk what's with that
+and shaved my legs
+wrapped some presents
+christmas day
+went to mass
+first tried finbarrs then had to go to rosaliee
+then played mastermind and watched a movie with mum and dad
+christmas part 2: boxing day
+ehhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh i kinda died
+"did a whooooole lot of stuff
+hope the payback isn't as bad as it probably will be
+woo
+pretty awful day
+but a bit better towards the end of it
+Stable
+enjoyable
+Enjoyable
+Quick switch
+Point of life
+Calmer
+positive
+lots of dust
+sore lower back
+home renovation
+morning fatigue
+floor polish fumes
+remodelling work
+lots of soda
+very active evening
+lots of bending over
+lots of stairs
+chewing gum
+New piercing
+enthusiastic
+stiff
+SW Lisa
+woke up tired
+easily aroused
+Cabin
+Boat
+Psychotherapy
+peanuts
+pronounced fatigue
+weather--hot and humid
+Dollywood
+extra note
+Worked Outside
+backfromretreat
+London yesterday
+playedbbal
+greatday
+suspect food
+greatdday
+wildnweird
+atetonkatsu
+fight
+unknown fructose content
+Msat
+strawberries
+V stayed the night
+workout
+ate too late
+cabin
+Travel
+sosial event
+alright
+toomuchdinner
+nice
+Beer
+Too much candy
+springishere
+great
+niice
+active day
+Arrowmont
+Fresh air
+departmentdinner
+Moe's for lunch
+Didn't meet friends because low energy
+Stiff back and neck
+POTS flare
+fibro flare
+more energy in the evning
+in bed on time
+Calhoun's for lunch
+wrote!
+medication change
+Narvik
+Vacation
+Applying for job
+housebound
+weather-hot and muggy
+blueberries
+wake up at 10:00
+Family
+Fishing
+started on Cerazette
+felt rested
+inn all day
+chick-fil-a chicken tenders
+bone pain
+End of period
+pushed self
+sleep apnea
+night train
+change of dosage
+achy
+Long
+Juicing
+agressive headache
+stayed up to late last night
+Able to work at the computer
+Moderate energy
+low-key
+resting
+allodynia
+slow
+easily sidetracked
+gardened all day
+very physically active
+day after gardening
+low energy but functional
+not bad!
+Awesome!
+very active
+"gardened - shoulder
+high humidity day
+Sunday
+Slow AM
+Weeded early evening
+not productive
+outside most of the day
+'bone tired'
+very low pain
+fatigued muscles
+"very low pain day
+tired muscles
+mild pain
+soy or tofu main dish eaten
+fingers & hand swelling
+painful left hip
+no additional painkiller
+quite congested
+not able to work
+AM severe stiffness
+PM ankle swelling 
+severe TMJ-sinus pain
+on my feet a lot
+mowed lawn
+very hot and humid day
+slightly productive
+thunderstorms expected
+high humidex
+high temperature weather
+Ottawa day
+IKEA
+PM housework
+acupuncture treatment
+intense TMJ pain
+outdoors majority of day
+indoors
+unproductive AM
+lots of desk work
+higher pain day
+extremely hot weather
+largely unproductive
+Cornwall day
+afternoon bonfire
+outdoor tidying
+PM extreme fatigue
+home
+intense joint pain in hands
+knuckle swelling
+recovery from travel day 
+high pain on waking
+walked dog
+largely non-productive
+post-travel day
+slightly active
+had coffee
+new issue
+medication issue
+post exertional
+overexerted
+MOH
+ImABridesmaid
+Bride2Be
+Sleepy
+SoTired
+LoveNaps
+IHurtBad
+StupidAccident
+StressedToTheMax!
+workflow 
+priorities
+JobLife
+too many things this week
+very hard to do anything today
+adulting
+medicated
+SoldierLife
+LosingMyJob
+MedicalProblems
+lost
+Body Achess
+Physically Spent
+sober
+annoyed
+droopyeyed
+NightNightBlues
+walked to pharmacy
+very cold
+migraine notes
+stepdown of medication
+proprioception notes
+starting down swing 
+ Subluxated hip 
+PAC
+gene blood draw
+tense
+Overwhelmed
+little down 
+really painful hands 
+loose hips
+Exhausted
+Recouping
+just blah
+really painful hands
+Painful morning
+okay day
+burnt out
+recovering from flight 
+dad's birthday dinner
+trying to clean the house
+A little depressed and a little discouraged
+new heart rate monitor in step counter
+cleaned bun cage
+went out to eat
+lots of period cramps
+felt slightly distant but not too bad
+chocolate craving
+did too much bending
+plans canceled
+still not feeling great
+moving stock
+feeling anxious about money
+day got a bit better but had lots of bad
+transport fail
+didn't take lunch break
+very hard to move after day of work
+late to work
+very tired at end of day
+body fatigue
+lots of cleaning
+got fired
+feeling self destructive
+last day of thesis
+overspending
+feeling blank
+called job centre
+sex
+bleeding from rear
+lots of gas
+very upset stomach
+couldn't sleep because i had to catch the bunny
+napped a little bit on transport
+period pains
+Costco
+trying on clothes 
+interrupted sleep
+lots of energy used up
+Anoyed
+Walked with a cane
+Excruciating
+ice
+weary
+acupuncture
+made dinner
+INR 2.5
+slept 12 hours
+noel sick
+sat outside
+noel died
+Diary
+ice cream bar
+slept >12 hrs
+steps:1352
+dry
+Very restless 
+butrans started
+triggered
+hard time functioning
+Gluten
+patient advocacy
+snack lunch
+No TV
+early morning dog barking
+lift x2
+cookie
+sore 
+drank alcohol
+cool night
+Arby's
+evening shift 4 hrs
+nighttime dog barking
+donut
+food log
+missed obligations
+Tylenol
+Walked the Dogs
+Lettuce
+ate little
+don't wannas
+Slept badly
+aggitated
+barely left the house
+neuropathy
+prerelease
+Taco Bell
+reset alarm clock
+Hiking
+public outburst
+emergency cat vet trip
+easter church service
+tons of people
+took anxiety meds and used new ear buds
+still upset over noel
+aromatherapy
+skipped meals
+buses
+depressed day
+little breakfast
+thunder storms
+Assembled coat stand
+high humidity
+run-walk
+gardening
+gluten 
+High Pain
+Iceburg Lettuce
+falling apart
+Dr Pepper
+Difficulty Waking
+nausea after meal
+hypoglycemic episode
+PTO
+self-harmed a lot
+dining room
+A little stressed
+steps:646 
+Fructose
+snooze = late to work
+rain storms
+Melatonin
+stuck in bed
+Popcorn
+Short of Breath
+Veggies
+Dairy
+Imodium
+2 Hr Nap
+meditation 
+Iceberg Lettuce
+fructose 
+UTI
+antibiotics
+Antibiotics
+book club
+walked the dogs
+blood work
+Book Club
+Joint Pain
+did homework
+fructose
+Frustrated by lack of response by Boston Rheum
+bad headache
+Started period
+Nap
+face hurts
+doing ok
+vet
+Nasal Congestion
+went to library
+early night
+shivers
+painkillers
+twitching alot
+Saw Adam
+rehearsals
+tannins
+Withdrawal effects
+hot flushes
+walked Byron
+kidney infection
+forgot meds til evening
+saw James R
+low
+hermit
+13k steps
+diarrhoea
+left class early
+physical exertion
+queasy
+22k steps
+hospital
+partly sunny
+forgot to enter
+counselling course
+Crafts
+crappy
+not much real food
+real dinner
+carrying bags
+evening pills 2-3 hours late
+low blood pressure
+performance
+date
+catered food
+tonsilitis
+proud
+spoke to Adam
+worked in sketchbook
+missed breakfast
+Cinema
+butternut squash risotto
+Vets
+std checkup
+fingers very painful
+puppy training
+saw psychologist
+audition
+Fingers dislocating
+Tramadol
+Poorly 
+tidied
+drank lots of water
+don't care about anything
+toes dislocating
+went to movies
+self-harmed
+Interview
+Raided
+Painted
+psychology
+Knackered
+horseback riding
+memories of Dorian
+saw Adam
+Fighting with Nate and Elizabeth
+toes very painful
+with James H
+Couldn't be bothered with anything
+last day of selenium
+contact with parents
+archery
+forgot meal
+Singing lesson
+kidney pain
+cooked lunch
+retching
+bodyaches
+Spoke to parents 
+up since 3am
+Colonoscopy prep
+Colonoscopy recovery
+job rejection
+dogsitting
+ate three meals
+cleaned room
+aches
+Up late
+Back pain
+Windy
+cold feet
+Snowing
+Hormonal migraine
+Heavy flow
+start 10mcg butrans
+hard falling asleep
+excruciating cramps
+did nothing
+lift
+crafting
+2 naps
+therapy phone appt
+fell asleep 5am
+didn't do much
+slept well again
+friend came over
+fun weekend
+day after moving
+PT 
+canceled everything
+really bad morning
+eyes dilated
+pretty active
+9.9 headache
+out to lunch
+trouble falling asleep
+didn't fall asleep until 5am
+start 15mcg butrans
+several mini-naps
+2 hour ride home
+cleaned closet
+itchy patch site
+low key day
+out all day
+wonderful day
+no cripple cart
+stomach bug
+pool
+got stuff back
+7 hour choir rehearsal
+painful indigestion
+PT Appt
+really fun evening
+did surprisingly well
+good rest day
+didn't eat breakfast
+vivid dreams
+took a bath 
+Field work
+Relaxed
+couldn't keep track of time
+perked up around sunset
+spacy
+Saw John
+restless
+Drinking
+treated myself 
+up late
+thirsty
+partially sunny
+migraine aura: excessive yawning
+used cefaly
+cooked breakfast
+migraine: drowsy couldn't focus eyes while driving
+blended EOs
+Unmotivated
+horny
+ate kimchi
+gardened
+dinner with kate
+migraine aura: sparkling wigglies
+cool weather
+hot bath w epsom salt
+no lunch
+date night
+up til dawn
+cooked dinner
+swept floor
+stress dreams
+speed-y
+pineapple
+foccacia
+grapes
+bath with epsom salt
+registrar's letter
+wee to QE
+Charlotte
+woke naturally
+woken by alarm
+underslept
+television
+woken
+ate nightshades
+Diet
+still tired
+Rain
+super tired from last night
+blah
+Spots under armpit and very sore
+burning all over
+Ate before bed
+Exercise last night
+garden work
+Relocation conversation
+Career discussion
+Meeting
+Boss out
+Sugar
+traveling (car)
+at wake
+cervical instability
+cervical migraine
+funeral
+school work
+had car
+bad mood
+disappointment
+Difficulty sleeping
+Frustrated
+emotional abuse
+lack of motivation
+Uncomfortable
+Kitty cuddles
+Hypervigilant
+Sleep deprived
+dislocated rib pain
+emotional exhaustion
+dependent
+Fight with husband
+reading on phone
+antisocial
+Dissociated
+Numb inside
+Apathetic
+tidying
+took pain medicine
+appointment
+disengaged from arguement
+invalidated
+red
+fight with Becky
+insensitive jerks
+Choking
+Passing out
+confused
+normal sleep
+day after stress
+bit stressed
+forgot homework
+walked to 25 m building
+leg cramp in the middle of the night
+18k steps
+took inderal late
+mostly happy
+unfocused
+Concerned
+phlegm
+unpleasant pooh
+Normal work day
+morning nap
+provigil 12:00
+no sugar
+sore boobs
+overate
+overeat
+tired in eve
+went on run
+no cheese
+Tiring
+Stressed
+Missed meals
+Fainting spell
+Fatigue
+Weekend
+cobb salad
+ate sweets
+
+Joint stiffness
+Nausea
+Anxiety
+Diarrhea
+mania
+Depression
+Stomach Pain
+Fatigue
+Jaw pain
+Neg-Stimming
+lightheadedness
+Headache
+injures
+Shoulder pain
+Fatigue and tiredness
+Wound Site Pain
+Lumbar Pain
+Dull
+Anhedonia
+Insomnia
+Chest pain
+Getting out of bed
+excess daytime sleepiness
+Rib pain
+Unrefreshing Sleep
+Pain
+Inattention
+Knee pain
+Stiffness
+Brain fog
+Joint pain
+Hip pain
+Muscle pain
+Neck pain
+Anger
+Self Harm
+Flaky scalp
+Morning pain
+Abdominal pain
+Nasal congestion
+Heart Rate
+Gas
+dandruff
+cramping
+Tachycardia
+Rectal incontinence
+Rectal bleeding
+Stomach cramps
+Sleeplessness
+Word confusion
+Increased appetite
+Loss of appetite
+Muscle twitching
+Dizziness
+Rash
+Upset stomach
+itching face
+Muscle cramps
+Talking problems
+Back pain
+Black Spots
+Constipation
+Urinary Frequency
+Urinary Incontinence
+Vulvar Itching
+eye pressure
+Forgetfulness
+swelling
+Bloating
+Inflammation
+Itchy Face
+Dry eye
+afternoon sleepiness
+muscle aches
+sleepiness
+Body aching
+dislocations
+Agitation
+Migraine
+Mood swings
+bowel movements
+Headaches
+Calm
+pre-syncope 
+Weight gain
+Ankle pain
+lack of focus
+Esophageal Reflux 
+Lower Back Pain
+nerve pain
+Exercise Intolerance
+Itching
+mood
+Cough
+Palpitations
+Double vision
+edema
+Orthostatic Hypotension
+urgent bowel movement
+Numb fingers
+Paralysis
+Ringing in ears
+Buttock pain
+Foot pain
+Eating problems
+Red bumps on feet
+Ear ache
+sinus pain
+Dry skin
+Leg pain
+Early Satiety
+Head Pressure
+burning sensation 
+over heating
+slow reflexes
+Lack of Interest
+Delusions
+Unwanted Thoughts
+Hallucinations
+soreness
+Elbow pain
+Low libido
+Anal soreness
+Flare ups
+Swollen ankles and/or swollen feet
+low vitamin d
+Legs Tingling
+Post-Exertional Malaise
+loose stool
+Bloody Stools
+Sweating
+Temperature
+Vocal tension
+Cold hands
+Crying
+severe fatigue
+slowness of walking
+Oversleeping
+death cramps
+Gender dysphoria
+"Low Salt (itchy gums
+Migraines
+Asthma attack
+Sex drive
+appetite
+Hands Numb
+Eczema
+exhaustion
+sneezing
+Memory loss
+Blisters
+shakiness
+drain blockage
+Leg weakness
+Crash Day
+itchy
+Chronic pain
+Overheating
+lethargy
+Hand pain
+Low appetite
+Hyperactivity
+Focus
+Shortness of breath
+impatience
+Suicidal ideation
+Digestive distress
+Absence Seizure
+Disequilibrium
+Guilt
+cataplexy
+Mucus in stool
+Head Pain
+Light sensitivity
+Smell sensitivity
+Concentration
+Noise Sensitivity
+Allodynia
+Cramps
+malaise
+Social anxiety
+Weakness
+Painful sleep
+Tingling hands
+Sads
+hives
+Energy
+Menstrual cramps
+burning feet
+low body temperature
+Vertigo
+breathing
+Distorted time sense
+Skin discolouration
+Earache R
+Facial Pain
+Earache L
+Dry Hands
+Nocturnal Emissions
+Skin rash
+Dry mouth
+Vulvar Pain
+Numbness
+Pelvic pain
+Safety behaviours
+muscle soreness
+stigmastis
+Raynaud's
+Acid Reflux
+scalp pain
+Migraine aura or prodrome
+Flashbacks
+Intestinal pain
+Achiness
+acne
+skin rashes
+Finger swelling
+Arm pain
+Racing thoughts
+left knee pain
+Toe pain
+Tailbone Area Pain
+Upper back pain
+Heel pain
+Spotting
+dissociation
+Happiness
+Flushing
+Perseveration
+Finger pain
+Bleed
+voices
+bladder pain 
+nightmares
+Psoriasis
+increased rate of speech
+Altered mental status
+Difficulty concentrating
+Allergy
+Ear issues
+muscle weakness
+Mucus
+bad breathing
+deaf in left ear
+Heartburn
+blood
+Altered Sleep Schedule
+Loose joints
+Fever
+Wrist pain
+Cold feet
+Tenesmus
+fatique
+Sleep Length
+Joint cracking
+Fatigue 
+Instability
+ovarian pain
+Weak smile
+Onychophosis
+Lower abdomen pain
+confused body temperature
+Joint weakness
+Lack of Motivation
+Right Hip Pain
+Sore breasts
+blood sugar
+Emotional
+sleep drunk
+Grumpies
+Daytime lie down
+adrenal surges
+hypoglycemia
+Swollen glands
+Grey out
+muscle pain 
+Catastrophizing
+Tremoring
+Nauseau
+night eating
+Menstruation
+physical fatigue
+Tiredness
+Ptosis
+difficulty waking up
+Light sensitive eyes
+extreme thirst
+scalp itching
+complusion
+took it easy
+creative energy
+Disorganized Behavior
+Lung Pain
+High libido
+Hip tightness
+Muscle spasms
+Eye strain
+Binge eating
+Tinnitus
+Bad breath
+Migralepsy
+Low mood
+Wrinkles
+arythymia
+Postural hypotension
+Hours Worked
+Arms Numb
+Esophageal Pain
+panic attacks
+Sore throat
+PEM
+sleep craving
+Bone pain
+Unsteadiness
+Flat affect
+Difficulty with speech
+low energy
+Compulsive Behavior
+Finger pain left
+Thumb pain right
+Hours Leisure
+Excessive Daytime Sleepiness
+Wind
+Aphasia
+Low grade fever
+Cold Extremities 
+Runny nose
+Compulsion
+Hypomania
+Worry
+Lack focus
+sick
+PAC 
+Broken skin
+Uncontrollable sleep
+Bumps on skin
+Feeling worthless
+Pain during penetration
+Dry cough
+Physical Tiredness
+Slept Badly
+Swelling - feet and or ankles
+Swelling - hands and or fingers
+painful urination
+Clogged ears
+Colon Pain
+Red bumps on fingers
+tender ribs
+Poor Sleep
+Itchy skin
+GERD
+Feeling hot
+Wrist Stiffness
+Discomfort breathing
+Cold nose
+burning hands
+Skin sensitive to touch
+Strength
+Panic
+Feet Numb
+aches
+Body tenderness
+Body aches
+Back stiffness
+low blood pressure
+Forearm Tendon Pain
+Blushing
+Right Elbow Ache
+Swollen Fingers
+Neuropathy 
+pelvic floor muscle spasm
+Hot flashes
+Itch
+Sleep
+Drowsiness
+Wheezing
+Muscle ache
+Restlessness
+Tummy ache
+Tightness
+Gastrointestinal symptoms
+swollen inguinal lymph nodes
+Disorganized Speech
+Period Pain
+Lupus rash
+Anemia
+Tingling in feet
+Tingling in hand
+desperation
+frustration
+cystic acne
+Muscle fatigue
+Eye twitch
+Joint Pain and Stiffness
+Subluxation
+burning skin
+Feeling hopeless
+Numbness toes
+Fibromyalgia
+Vaginal dryness
+sharp 
+Stiff neck
+Sleep Quality
+Dysphagia
+Alogia
+Missed menstrual period
+Sleep Problems
+Extreme Daytime Sleepiness (EDS)
+Muscle tension
+

@@ -1,0 +1,17 @@
+us 1
+za 2
+gb 3
+au 4
+ca 5
+ch 6
+pt 7
+be 8
+de 9
+sg 10
+is 11
+nz 12
+ua 13
+hk 14
+ie 15
+es 16
+dz 17

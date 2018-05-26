@@ -1,0 +1,181 @@
+
+Version 1
+delete trackId and data -> reformat data -> keep major features -> (reformat again to make data compelte,
+i.e. add missing data and discard incomplete ones
+(模块处理，以一个人为单位，对其中所有feature进行综合处理:
+1 国籍年龄信息不全则舍去，
+2 处理后得到每一行是全都为数字，将国家等用数字替换，所有condition成一列有就用数字表示，没有则表示为0，tag也用数字替换
+
+
+row: 1 age,2 gender,3 country,4 chronic fatigue syndrome,5 fibromyalgia,6 fatigue,7 anxiety,8 disorder,9 depression,10 tag,11 symptom
+gender:
+    male=1
+    female=2
+
+country
+    us 1
+    gb 2
+    ca 3
+    za 4
+    fi 5
+    au 6
+    ch 7
+    pt 8
+    be 9
+    de 10
+    sg 11
+    il 12
+    is 13
+    nz 14
+    ua 15
+    hk 16
+    dk 17
+    uy 18
+    ie 19
+    es 20
+    dz 21
+
+mostFrequentSymptoms=("fatigue","muscle","headache","joint pain","back pain")
+mostFrequentConditions=("chronic fatigue syndrome","fibromyalgia","fatigue","anxiety","disorder","depression")
+mostFrequentTreatment=("vitamin","magnesium","ibuprofen","tramadol","exercise")
+mostFrequentTag=("tired","sleep","stressed","walked")
+
+
+#2 处理后应使得保留两个频率最高的，在某个symptom之前的condition, tag)->substitute features by numbers ->)
+
+
+-----------finish-------------------------
+
+
+VERSION 2
+type of features:
+
+conditions
+food
+tag
+weather
+
+symptoms
+*treatments
+
+discard treatment weather
+select the symptom with highest number among consecutive ones
+模块化处理
+
+
+generate all countries, conditions, tags, symptoms,
+
+Version 2
+replace conditions with numbers 0-5
+tags with 0-1
+countries with countries code 0-36
+symptoms with symptom code 0-409
+missing 0
+
+shallow neural network algorithm applied, improvement required
+
+accuracy of initial version(one hidden layer, simplified data): 31%
+
+
+Version 3
+
+
+natural language processing
+load pre-trained word embeddings
+one-hot vector* word embeddings -> average
+
+
+PCA and clustering:
+
+choose 100d vector 200d vector -> PCA
+try word embeddings from different sources
+try different number of cluster centroids
+evaluate predications of k-means algorithms
+
+
+do NLP on conditions, symptoms, tags,etc
+using RNN to take the order of words into account
+
+
+"/Users/liuliu/Downloads/glove.6B/glove.6B.50d.txt"
+kmeans square error with 50d word embedding vector "elbow point ": 14, error: 3859.2035435595035
+with 100d vector "elbow point ": 14, error: 4565.62861696574
+
+
+
+
+
+
+
+countries 36
+conditions 19
+tag 18
+symptom 19
+
+
+-----------finish-------------------------
+initial score of train around 55%  test 30%
+
+steps to take:
+1. tuning network systematically
+best after tuning with hyper parameters: mini_batch size=200, learning_rate=0.001, hidden_layer_size=90,50,45, alpha(regularisation)=1.1 and no learning_rate decay
+train_score,test_score=63.44086021505376%  35.00717360114778%   test_score doesn't increase significantly even with large regularisation parameter
+
+
+
+handle skewed data result:
+threshold=0.5  (all on test set)
+precision=0.5811753760272911, recall=0.35205711065188805)
+threshold=0.4  (all on test set)
+(0.5543200408997955, 0.40738305466842006)
+threshold=0.35  (all on test set)
+(0.5387323943661971, 0.4455194439226)
+threshold=0.3  (all on test set)
+precision=(0.5308426562660371, 0.48581626902122865)
+
+by discarding bad data:
+(0.5820216195714015, 0.45500370644922167)
+(0.649671052631579, 0.6124031007751938)
+
+
+从处理数据本身出发，重新考虑处理数据的方法
+
+what I can do:
+
+improve word vector clustering RNN强调了顺序  (RNN)
+manually look at the misclassified data, after having discarded bad samples  ,专家能根据input作出预测吗
+include weather using the new dataset and treatment
+
+try different centroids 合并generate_dic  tuning_network
+画一张图，是否收敛, tune network with new dataset, (try different number of centroids,  clustring reasonable?  归类有没有道理)
+
+
+shuffle data
+tuning network systematically and look at previous thoughts:
+
+regularisation range(1,2)
+test hidden units without regularisation
+kfold+regularisation
+
+
+try different optimiser, and try different models
+smaller dev set --  using kfold and
+
+
+
+seek advice from seniors
+look for other data set
+
+ask for help:
+clusetring reasonable?  归类有没有道理
+input large enough to make predications?  专家能根据input作出预测吗
+predicatable?   这可不可以预测
+
+
+
+
+1.multilabel  2.RNN 3.human level performance 4. look at other people's performance
+
+
+3. SVM and others
+
