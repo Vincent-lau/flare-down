@@ -15,8 +15,8 @@ from sklearn.model_selection import KFold
 
 
 def csv_to_text(): #need to deal with "Incontinence urine"
-    with codecs.open("/Users/liuliu/Desktop/Python/flare_down/fd-export2.csv", 'r', encoding="utf-8") as f1:
-        with codecs.open("/Users/liuliu/Desktop/Python/flare_down/Version6/txtFileOfCsv.txt", "w",encoding="utf-8") as f2:
+    with codecs.open("/Users/liuliu/My Documents/flare_down/code/fd-export2.csv", 'r', encoding="utf-8") as f1:
+        with codecs.open("/Users/liuliu/My Documents/flare_down/code/Version6/txtFileOfCsv.txt", "w",encoding="utf-8") as f2:
 
             preline=""
             for line in f1:
@@ -38,8 +38,8 @@ def csv_to_text(): #need to deal with "Incontinence urine"
 #
 # csv_to_text()
 def remove_quotes():  #remove quotes around "Incontinence urine"
-    with codecs.open("/Users/liuliu/Desktop/Python/flare_down/Version6/txtFileOfCsv.txt", 'r', encoding="utf-8") as fin:
-        with codecs.open("/Users/liuliu/Desktop/Python/flare_down/Version6/remove_quotes.txt", "w",encoding="utf-8") as fout:
+    with codecs.open("/Users/liuliu/My Documents/flare_down/code/Version6/txtFileOfCsv.txt", 'r', encoding="utf-8") as fin:
+        with codecs.open("/Users/liuliu/My Documents/flare_down/code/Version6/remove_quotes.txt", "w",encoding="utf-8") as fout:
             for line in fin:
                 record=line.split(',')
 
@@ -54,8 +54,8 @@ def remove_quotes():  #remove quotes around "Incontinence urine"
 
 # ----------------------------------------------------------------------------
 def delete_trackableID():    #delete the column trackableID
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/txtFileOfCsv.txt", 'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/delete_trackableID.txt", 'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/txtFileOfCsv.txt", 'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/delete_trackableID.txt", 'w',encoding="utf-8") as fout:
             for line in fin:
                 record=line.split(',')
                 for i in range(len(record)):
@@ -68,8 +68,8 @@ def delete_trackableID():    #delete the column trackableID
 
 #----------------------------------------------------------------------------
 def rearrange():           #rearrange data such that all information under the same user will be grouped
-    with open ("/Users/liuliu/Desktop/Python/flare_down/Version6/delete_trackableID.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/rearrange.txt",'w',encoding="utf-8") as fout:
+    with open ("/Users/liuliu/My Documents/flare_down/code/Version6/delete_trackableID.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/rearrange.txt",'w',encoding="utf-8") as fout:
             preID = ""
             for line in fin:
 
@@ -97,8 +97,8 @@ def rearrange():           #rearrange data such that all information under the s
 
 #----------------------------------------------------------------------------
 def sort_by_date():             #sort every group according to dates and delete all date afterwards
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/rearrange.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/sort_by_date.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/rearrange.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/sort_by_date.txt",'w',encoding="utf-8") as fout:
             module=[]
             for line in fin:
                 record=line.split(',')
@@ -126,8 +126,8 @@ def sort_by_date():             #sort every group according to dates and delete 
 
 # ----------------------------------------------------------------------------
 def discard_noSymptoms():   #discard groups with no symptoms i.e. no y value
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/sort_by_date.txt", 'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/discard_noSymptoms.txt", 'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/sort_by_date.txt", 'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/discard_noSymptoms.txt", 'w',encoding="utf-8") as fout:
             module = []
             for line in fin:
                 flag = False
@@ -151,8 +151,8 @@ def discard_noSymptoms():   #discard groups with no symptoms i.e. no y value
 
 # ----------------------------------------------------------------------------
 def discard_treatment_weather_zeroSymptom():  #discard all treamtment, weather, and symptoms with zeros
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/discard_noSymptoms.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/discard_treatment_weather_zeroSymptom.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/discard_noSymptoms.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/discard_treatment_weather_zeroSymptom.txt",'w',encoding="utf-8") as fout:
             for line in fin:
                 record=line.split(',')
                 flag=True
@@ -169,8 +169,8 @@ def discard_treatment_weather_zeroSymptom():  #discard all treamtment, weather, 
 
 #----------------------------------------------------------------------------
 def seperate_groups():  #seperate groups such that every group ends with some symptoms and discard those without a symptom at the end
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/discard_treatment_weather_zeroSymptom.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/seperate_groups.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/discard_treatment_weather_zeroSymptom.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/seperate_groups.txt",'w',encoding="utf-8") as fout:
             module = []
             symptom_flag=False
             for line in fin:
@@ -228,7 +228,7 @@ def read_word_vecs(word_vecs):
 
 
 def generate_list():  # generate lists that has all the conditions, tags and symptoms in them for the conversion to averaged word vectors
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/sort_by_date.txt", 'r',encoding="utf-8") as fin:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/sort_by_date.txt", 'r',encoding="utf-8") as fin:
 
         countries = {"": 0}
         tags_list = []
@@ -334,7 +334,7 @@ def get_clusters(X_list, X_dic,n_centroids):  # print every entry in the list an
 
 
 def write_dic(countries,conditions,tags,symptoms):
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/dic.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/dic.txt",'w',encoding="utf-8") as fout:
         fout.write("COUNTRY\n")
         for s in countries:
             fout.write(s+','+str(countries[s])+",\n")
@@ -377,7 +377,7 @@ def generate_dic(words, word_to_vec_map,n_condition_clusters,n_tag_clusters,n_sy
 #----------------------------------------------------------------------------
 
 def read_dic():    #read in the dic for conditions, tags, and symptoms
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/dic.txt",'r',encoding='utf-8') as fin:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/dic.txt",'r',encoding='utf-8') as fin:
             Dic={"countries_dic":{"":0},"conditions_dic":{},"tags_dic":{},"symptoms_dic":{}}
 
             dic_selected = ""
@@ -405,8 +405,8 @@ def read_dic():    #read in the dic for conditions, tags, and symptoms
 
 # ----------------------------------------------------------------------------
 def data_in_dic():  #keep only the data that is in the dic
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/seperate_groups.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/data_in_dic.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/seperate_groups.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/data_in_dic.txt",'w',encoding="utf-8") as fout:
             allDic = read_dic()
 
             conditions_dic = allDic["conditions_dic"]
@@ -433,8 +433,8 @@ def data_in_dic():  #keep only the data that is in the dic
 
 #----------------------------------------------------------------------------
 def keep_good_data():
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/data_in_dic.txt", 'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/keep_good_data.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/data_in_dic.txt", 'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/keep_good_data.txt",'w',encoding="utf-8") as fout:
             module = []
             for line in fin:
                 if ("==" in line):
@@ -476,9 +476,9 @@ def convert_to_number():  #convert all strings to numbers for machine learning
     tag_size = tags_dic[max(tags_dic, key=tags_dic.get)]+1
     symptom_size = symptoms_dic[max(symptoms_dic, key=symptoms_dic.get)]+1
 
-    with open("/Users/liuliu/Desktop/Python/flare_down/Version6/keep_good_data.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/Desktop/Python/flare_down/Version6/training.txt", 'w') as fout1:
-            with open("/Users/liuliu/Desktop/Python/flare_down/Version6/test.txt", 'w') as fout2:
+    with open("/Users/liuliu/My Documents/flare_down/code/Version6/keep_good_data.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version6/training.txt", 'w') as fout1:
+            with open("/Users/liuliu/My Documents/flare_down/code/Version6/test.txt", 'w') as fout2:
                 s=""
                 countries_value=[0]*country_size
                 conditons_value=[0]*condition_size
@@ -743,7 +743,7 @@ data_in_dic()
 keep_good_data()
 symptom_size,overall_size=convert_to_number()
 
-X,Y,m=read_set("/Users/liuliu/Desktop/Python/flare_down/Version6/training.txt",symptom_size,overall_size)
+X,Y,m=read_set("/Users/liuliu/My Documents/flare_down/code/Version6/training.txt",symptom_size,overall_size)
 
 kf = KFold(n_splits=14,shuffle=True)
 

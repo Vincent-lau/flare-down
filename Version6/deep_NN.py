@@ -48,8 +48,8 @@ def read_set(File):
     return X,Y,m
 
 
-X_train,Y_train,m_train=read_set("/Users/liuliu/Desktop/Python/flare_down/Version5/training.txt")
-X_test,Y_test,m_test=read_set("/Users/liuliu/Desktop/Python/flare_down/Version5/test.txt")
+X_train,Y_train,m_train=read_set("/Users/liuliu/My Documents/flare_down/code/Version5/training.txt")
+X_test,Y_test,m_test=read_set("/Users/liuliu/My Documents/flare_down/code/Version5/test.txt")
 print(Y_train.shape[0],Y_test.shape[0])
 
 
