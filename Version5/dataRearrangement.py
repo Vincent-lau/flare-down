@@ -695,6 +695,7 @@ for i in range(40,101,10):
         for k in range(40,101,10):
             generate_dic(words, word_to_vec_map,n_condition_clusters=i,n_tag_clusters=j,n_symptom_clusters=k)
             print("n_condition_clusters=",i,"n_tag_clusters=",j,"n_symptom_clusters=",k,file=f)
+            print("n_condition_clusters=", i, "n_tag_clusters=", j, "n_symptom_clusters=", k)
             read_dic()
             data_in_dic()
             keep_good_data()
