@@ -1,27 +1,13 @@
-
+#all features that are going to be kept in this version will be in the tuples below
 mostFrequentSymptoms=("fatigue","muscle","headache","joint pain","back pain")
 mostFrequentConditions=("chronic fatigue syndrome","fibromyalgia","fatigue","anxiety","disorder","depression")
 mostFrequentTreatment=("vitamin","magnesium","ibuprofen","tramadol","exercise")
 mostFrequentTag=("tired","sleep","stressed","walked")
-#----------------------------------------------------------------------------
-def delete_dateAndtrackableID():
-    with open ("/Users/liuliu/My Documents/flare_down/code/Version1/txtFileOfCsv.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/delete_dateAndtrackableID.txt",'w') as fout:
-            for line in fin:
-                counter=0
-                for s in line.split(','):
-                    if(counter!=4 and counter!=5):
-
-                        fout.write(s)
-                        if(s!='\n'):
-                            fout.write(',')
-                    counter+=1
-
 
 # ----------------------------------------------------------------------------
-def delete_dateAndtrackableID2():
-    with open("/Users/liuliu/My Documents/flare_down/code/Version1/txtFileOfCsv.txt", 'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/delete_dateAndtrackableID.txt", 'w') as fout:
+def delete_dateAndtrackableID():
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version1/txtFileOfCsv.txt", 'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/delete_dateAndtrackableID.txt", 'w') as fout:
             for line in fin:
                 record=line.split(',')
                 for i in range(len(record)):
@@ -31,10 +17,11 @@ def delete_dateAndtrackableID2():
                         if (record[i] != '\n'):
                             fout.write(',')
 
+
 #----------------------------------------------------------------------------
 def rearrange():           #rearrange data such that all information under the same user will be grouped
-    with open ("/Users/liuliu/My Documents/flare_down/code/Version1/delete_dateAndtrackableID.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/rearrange.txt",'w') as fout:
+    with open ("/Users/liuliu/myDocuments/flare_down/code/Version1/delete_dateAndtrackableID.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/rearrange.txt",'w') as fout:
             preID = ""
             for line in fin:
 
@@ -60,11 +47,11 @@ def rearrange():           #rearrange data such that all information under the s
 
 
 #----------------------------------------------------------------------------
-def discard_low_frequency_features():
+def discard_low_frequency_features():  #features that are not in the tuples will be discarded in this version
 
 
-    with open ("/Users/liuliu/My Documents/flare_down/code/Version1/rearrange.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/discard_less_frequent_features.txt",'w') as fout:
+    with open ("/Users/liuliu/myDocuments/flare_down/code/Version1/rearrange.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/discard_less_frequent_features.txt",'w') as fout:
             for line in fin:
 
                 line=line.lower()
@@ -106,10 +93,10 @@ def discard_low_frequency_features():
 
 
 #----------------------------------------------------------------------------
-def remove_incomplete_data():
+def remove_incomplete_data():  #if information for a user is missing, then the smaple will be discarded
 
-    with open("/Users/liuliu/My Documents/flare_down/code/Version1/discard_less_frequent_features.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/remove_incomplete_data.txt",'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version1/discard_less_frequent_features.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/remove_incomplete_data.txt",'w') as fout:
             module=[""]
             for line in fin:
                 flag=True
@@ -136,7 +123,7 @@ def remove_incomplete_data():
 
 
 #----------------------------------------------------------------------------
-def deal_with_featuresBeforeSymptom(till_symptom,fout):  #keep only two most frequent conditions
+def deal_with_featuresBeforeSymptom(till_symptom):  #keep only two most frequent conditions and tags
     if(len(till_symptom) == 0):
         return (False,[])
 
@@ -148,7 +135,6 @@ def deal_with_featuresBeforeSymptom(till_symptom,fout):  #keep only two most fre
         till_symptom.sort()
 
 
-   # print("till_symptom",till_symptom)
     conditionsKept=[]
     tagKept=[]
     othersKept=[]
@@ -202,13 +188,12 @@ def deal_with_featuresBeforeSymptom(till_symptom,fout):  #keep only two most fre
 
     kept=conditionsKept+tagKept+othersKept
     return (flag,kept)
-    # for i in till_symptom:
-    #     fout.write(i)
+
 
 
 def twoFrequentConditionsBeforeSymptom():
-    with open("/Users/liuliu/My Documents/flare_down/code/Version1/remove_incomplete_data.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/twoFrequentFeaturesBeforeSymptom.txt",'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version1/remove_incomplete_data.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/twoFrequentFeaturesBeforeSymptom.txt",'w') as fout:
 
             #keep the most frequent two, if not exist, set flag=false
             module=[""]
@@ -220,7 +205,7 @@ def twoFrequentConditionsBeforeSymptom():
                         tmp = record.split(',')
                         if (tmp[0] == "symptom"):
 
-                            flag,kept=deal_with_featuresBeforeSymptom(till_symptom,fout)
+                            flag,kept=deal_with_featuresBeforeSymptom(till_symptom)
 
 
                             if(flag):
@@ -241,7 +226,8 @@ def twoFrequentConditionsBeforeSymptom():
 
 
 #----------------------------------------------------------------------------
-def deal_with_featuresBeforeSymptom2(till_symptom,fout):
+def deal_with_featuresBeforeSymptom2(till_symptom):
+    #keep all frequent conditions before symptom and keep only one of the most frequent tags
 
     if(len(till_symptom) == 0):
         return (False,[])
@@ -254,7 +240,7 @@ def deal_with_featuresBeforeSymptom2(till_symptom,fout):
         till_symptom.sort()
 
 
-   # print("till_symptom",till_symptom)
+
     conditionsKept=[]
     tagKept=[]
     othersKept=[]
@@ -286,17 +272,6 @@ def deal_with_featuresBeforeSymptom2(till_symptom,fout):
 
 
 
-    # flag_condition=False
-    # if (len(conditionsKept)>=2):
-    #
-    #     conditionsKept.sort(key=lambda conditionsKept: conditionsKept[1])
-    #
-    #     while(len(conditionsKept)>2):
-    #         conditionsKept.pop()
-    #     flag_condition=True
-    #
-    #
-    #
     flag_tag=False
     if(len(tagKept)>=1):
         flag_tag=True
@@ -310,10 +285,10 @@ def deal_with_featuresBeforeSymptom2(till_symptom,fout):
     kept=conditionsKept+tagKept+othersKept
     return (flag,kept)
 
-def allFrequentFeaturesBeforeSymptom():
+def allFrequentConditionsBeforeSymptom():
     # keep all conditions that are in the tuple:mostFrequentConditions while only keep one most frequent tag
-    with open("/Users/liuliu/My Documents/flare_down/code/Version1/remove_incomplete_data.txt", 'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/allFrequentConditionsBeforeSymptom.txt", 'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version1/remove_incomplete_data.txt", 'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/allFrequentConditionsBeforeSymptom.txt", 'w') as fout:
 
             module = [""]
             for line in fin:
@@ -324,7 +299,7 @@ def allFrequentFeaturesBeforeSymptom():
                         tmp = record.split(',')
                         if (tmp[0] == "symptom"):
 
-                            flag, kept = deal_with_featuresBeforeSymptom2(till_symptom, fout)
+                            flag, kept = deal_with_featuresBeforeSymptom2(till_symptom)
 
                             if (flag):
                                 fout.write(module[0])
@@ -345,8 +320,8 @@ def allFrequentFeaturesBeforeSymptom():
 
 def generateCountries():
     #generate a file that contains countries and their mappings
-    with open("/Users/liuliu/My Documents/flare_down/code/Version1/allFrequentConditionsBeforeSymptom.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/countries.txt",'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version1/allFrequentConditionsBeforeSymptom.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/countries.txt",'w') as fout:
             countries=[]
             for line in fin:
                 if("==" in line):
@@ -365,8 +340,8 @@ def convert_to_number():
     #map all text data to number data
     gender={"doesnt_say":0,"male":1, "female":2,"other":3}
     countries={"us":1,"gb":2,"ca":3,"za":4,"fi":5,"au":6,"ch":7,"pt":8,"be":9,"de":10,"sg":11,"il":12,"is":13,"nz":14,"ua":15,"hk":16,"dk":17,"uy":18,"ie":19,"es":20,"dz":21}
-    with open("/Users/liuliu/My Documents/flare_down/code/Version1/twoFrequentFeaturesBeforeSymptom.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version1/training.txt", 'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version1/twoFrequentFeaturesBeforeSymptom.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/training.txt", 'w') as fout:
             s=""
             conditons=[0]*6
             tagNum=0
