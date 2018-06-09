@@ -1,4 +1,3 @@
-from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import PCA
 import numpy as np
 import matplotlib.pyplot as plt
@@ -474,7 +473,7 @@ def convert_to_number():  #convert all strings to numbers for machine learning
 
     with open("/Users/liuliu/My Documents/flare_down/code/Version5/keep_good_data.txt",'r',encoding="utf-8") as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version5/training.txt", 'w') as fout1:
-            with open("/Users/liuliu/My Documents/flare_down/code/Version5/test.txt", 'w') as fout2:
+            with open("/Users/liuliu/My Documents/flare_down/code/Version5/dev.txt", 'w') as fout2:
                 s=""
                 countries_value=[0]*country_size
                 conditons_value=[0]*condition_size

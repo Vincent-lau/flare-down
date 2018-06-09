@@ -189,7 +189,7 @@ def read_set(File):
 
 
 X_train,Y_train,m_train=read_set("training.txt")
-X_test,Y_test,m_test=read_set("test.txt")
+X_test,Y_test,m_test=read_set("dev.txt")
 
 parameters=nn_model(X_train, Y_train, 4, num_iterations=10000, print_cost=True)
 # print("W1", parameters["W1"])

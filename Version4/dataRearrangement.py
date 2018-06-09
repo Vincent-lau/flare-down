@@ -262,7 +262,7 @@ def convert_to_number():  #convert all strings to numbers for machine learning
 
     with open("/Users/liuliu/My Documents/flare_down/code/Version4/keep_good_data.txt",'r') as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version4/training.txt", 'w') as fout1:
-            with open("/Users/liuliu/My Documents/flare_down/code/Version4/test.txt", 'w') as fout2:
+            with open("/Users/liuliu/My Documents/flare_down/code/Version4/dev.txt", 'w') as fout2:
                 s=""
                 countries_value=[0]*36
                 conditons_value=[0]*19

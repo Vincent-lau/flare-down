@@ -533,7 +533,7 @@ def convert_to_number():
     countries,conditions,tags,symptoms=generateDic()
     with open("/Users/liuliu/My Documents/flare_down/code/Version2/seperate_groups.txt",'r') as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version2/training.txt", 'w') as fout1:
-            with open("/Users/liuliu/My Documents/flare_down/code/Version2/test.txt", 'w') as fout2:
+            with open("/Users/liuliu/My Documents/flare_down/code/Version2/dev.txt", 'w') as fout2:
                 s=""
                 conditons_value=[0]*len(conditions)
                 tags_value=[0]*len(tags)
