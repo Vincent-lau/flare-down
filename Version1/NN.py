@@ -122,14 +122,12 @@ def nn_model(X, Y, n_h, num_iterations=10000, print_cost=False):
     n_y = Y.shape[0]
 
 
-    # Initialize parameters, then retrieve W1, b1, W2, b2. Inputs: "n_x, n_h, n_y". Outputs = "W1, b1, W2, b2, parameters".
-    ### START CODE HERE ### (≈ 5 lines of code)
     parameters = initialise_parameters(n_x, n_h, n_y)
     W1 = parameters["W1"]
     b1 = parameters["b1"]
     W2 = parameters["W2"]
     b2 = parameters["b2"]
-    ### END CODE HERE ###
+
 
     # Loop (gradient descent)
 
@@ -214,8 +212,7 @@ def predict(parameters, X):
     predictions -- vector of predictions of our model (red: 0 / blue: 1)
     """
 
-    # Computes probabilities using forward propagation, and classifies to 0/1 using 0.5 as the threshold.
-    ### START CODE HERE ### (≈ 2 lines of code)
+
 
     A2, cache = forward_propagation(X, parameters)
 
