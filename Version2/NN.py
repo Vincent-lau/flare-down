@@ -122,14 +122,13 @@ def nn_model(X, Y, n_h, num_iterations=10000, print_cost=False):
     n_y = Y.shape[0]
 
 
-    # Initialize parameters, then retrieve W1, b1, W2, b2. Inputs: "n_x, n_h, n_y". Outputs = "W1, b1, W2, b2, parameters".
-    ### START CODE HERE ### (≈ 5 lines of code)
+
     parameters = initialise_parameters(n_x, n_h, n_y)
     W1 = parameters["W1"]
     b1 = parameters["b1"]
     W2 = parameters["W2"]
     b2 = parameters["b2"]
-    ### END CODE HERE ###
+
 
     # Loop (gradient descent)
 
@@ -147,7 +146,7 @@ def nn_model(X, Y, n_h, num_iterations=10000, print_cost=False):
         # Gradient descent parameter update. Inputs: "parameters, grads". Outputs: "parameters".
         parameters = update_parameters(parameters, grads, learning_rate=0.4)
 
-        ### END CODE HERE ###
+
 
         # Print the cost every 1000 iterations
         if print_cost and i % 1000 == 0:
@@ -189,19 +188,11 @@ def read_set(File):
 
 
 X_train,Y_train,m_train=read_set("/Users/liuliu/My Documents/flare_down/code/Version2/training.txt")
-X_test,Y_test,m_test=read_set("/Users/liuliu/My Documents/flare_down/code/Version2/dev.txt")
+X_dev,Y_dev,m_dev=read_set("/Users/liuliu/My Documents/flare_down/code/Version2/dev.txt")
 
 parameters=nn_model(X_train, Y_train, 10, num_iterations=10000, print_cost=True)
 
-# print("W1", parameters["W1"])
-# print("W2",parameters["W2"])
-# print("b1",parameters["b1"])
-# print("b2",parameters["b2"])
-# print(A2)
-# print(Y)
-# print(compute_cost(A2,Y,parameters))
-# grads=backward_propagation(parameters,cache,X,Y)
-# print(grads["db1"])
+
 
 def predict(parameters, X):
     """
@@ -216,7 +207,7 @@ def predict(parameters, X):
     """
 
     # Computes probabilities using forward propagation, and classifies to 0/1 using 0.5 as the threshold.
-    ### START CODE HERE ### (≈ 2 lines of code)
+
 
     A2, cache = forward_propagation(X, parameters)
 
@@ -252,5 +243,5 @@ def calculate_accuracy(predictions,Y):
 
 predictions=predict(parameters,X_train)
 print("performance on training set:",calculate_accuracy(predictions,Y_train),'%')
-predictions=predict(parameters,X_test)
-print("performance on dev set",calculate_accuracy(predictions,Y_test),'%')
+predictions=predict(parameters,X_dev)
+print("performance on dev set",calculate_accuracy(predictions,Y_dev),'%')
