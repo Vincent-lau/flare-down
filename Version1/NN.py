@@ -156,7 +156,7 @@ def nn_model(X, Y, n_h, num_iterations=10000, print_cost=False):
 
 
 
-def read_set(File):
+def read_set(File):  #read in set from train and dev
     X=[]
     Y=[]
     with open(File, 'r') as fin:
@@ -187,18 +187,10 @@ def read_set(File):
 
 
 X_train,Y_train,m_train=read_set("training.txt")
-X_test,Y_test,m_test=read_set("dev.txt")
+X_dev,Y_dev,m_dev=read_set("dev.txt")
 
-parameters=nn_model(X_train, Y_train, 4, num_iterations=10000, print_cost=True)
-# print("W1", parameters["W1"])
-# print("W2",parameters["W2"])
-# print("b1",parameters["b1"])
-# print("b2",parameters["b2"])
-# print(A2)
-# print(Y)
-# print(compute_cost(A2,Y,parameters))
-# grads=backward_propagation(parameters,cache,X,Y)
-# print(grads["db1"])
+parameters=nn_model(X_train, Y_train, 4, num_iterations=10000, print_cost=True)  #train the model
+
 
 def predict(parameters, X):
     """
@@ -248,5 +240,5 @@ def calculate_accuracy(predictions,Y):
 
 predictions=predict(parameters,X_train)
 print("performance on training set:",calculate_accuracy(predictions,Y_train),'%')
-predictions=predict(parameters,X_test)
-print("performance on dev set:",calculate_accuracy(predictions,Y_test),'%')
+predictions=predict(parameters,X_dev)
+print("performance on dev set:",calculate_accuracy(predictions,Y_dev),'%')
