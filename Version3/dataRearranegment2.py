@@ -10,7 +10,7 @@ from gensim.models.keyedvectors import KeyedVectors
 
 
 # ----------------------------------------------------------------------------
-def delete_trackableID():
+def delete_trackableID():  #delete the trackable ID
     with open("/Users/liuliu/My Documents/flare_down/code/Version3/txtFileOfCsv.txt", 'r') as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version3/delete_trackableID.txt", 'w') as fout:
             for line in fin:
@@ -146,8 +146,7 @@ def select_symptom():  #choose the symptom with the highest number among consecu
 
 #----------------------------------------------------------------------------
 def discard_low_frequency_features():
-
-
+    # those features that are not in the tuple will be discarded
     with open ("/Users/liuliu/My Documents/flare_down/code/Version3/rearrange.txt",'r') as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version3/discard_less_frequent_features.txt",'w') as fout:
             for line in fin:
@@ -192,7 +191,7 @@ def discard_low_frequency_features():
 
 #----------------------------------------------------------------------------
 def remove_incomplete_data():
-
+    # if information for a user is missing, then the smaple will be discarded
     with open("/Users/liuliu/Desktop/Python//Users/liuliu/My Documents/flare_down/code/Version3/discard_less_frequent_features.txt",'r') as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version3/remove_incomplete_data.txt",'w') as fout:
             module=[""]
@@ -219,7 +218,8 @@ def remove_incomplete_data():
 
 
 #----------------------------------------------------------------------------
-def seperate_groups():  #seperate groups such that every group ends with a single symptom and discard those without a symptom at the end
+def seperate_groups():
+    #seperate groups such that every group ends with a single symptom and discard those without a symptom at the end
     with open("/Users/liuliu/My Documents/flare_down/code/Version3/select_symptom.txt",'r') as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version3/seperate_groups.txt",'w') as fout:
             module = []
@@ -254,16 +254,14 @@ def seperate_groups():  #seperate groups such that every group ends with a singl
 #----------------------------------------------------------------------------
 
 def generate_list():
+    # generate a dictionary that consists of a list of all features and their ordinal number
     with open("/Users/liuliu/My Documents/flare_down/code/Version3/sort_by_date.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version3/countries.txt",'w') as fout:
+        with open("/Users/liuliu/My Documents/flare_down/code/Version3/dic.txt",'w') as fout:
             countries={"":0}
             tags_list=[]
             symptoms_list=[]
             conditions_list=[]
             counter_conunrties=0
-            counter_conditions = -1
-            counter_tags=-1
-            counter_symptoms=0
             for line in fin:
                 record=line.split(',')
                 if("==" in line):
@@ -316,6 +314,7 @@ def generate_list():
 
 #----------------------------------------------------------------------------
 def convert_to_number():
+    # convert all features to numbers
     gender={"doesnt_say":0,"male":1, "female":2,"other":3}
     countries,conditions,tags,symptoms=generateDic()
     with open("/Users/liuliu/My Documents/flare_down/code/Version3/seperate_groups.txt",'r') as fin:
@@ -381,10 +380,8 @@ def convert_to_number():
 
 
 #----------------------------------------------------------------------------
-
-
 def read_glove_vecs(glove_file):
-
+    #read the glove vector: word vector
     with codecs.open(glove_file, 'r',encoding="utf-8") as f:
         words = set()
         word_to_vec_map = {}
@@ -398,12 +395,10 @@ def read_glove_vecs(glove_file):
 
     return words, word_to_vec_map
 
-words, word_to_vec_map = read_glove_vecs("/Users/liuliu/Downloads/glove.6B/glove.6B.50d.txt")
+words, word_to_vec_map = read_glove_vecs("//Users/liuliu/myDocuments/flare_down/data/glove.6B.50d.txt")
 print("---------------------word vectors loaded------------------------")
 
-
-
-def sentence_to_avg(word_to_vec_map,X):
+def sentence_to_avg(word_to_vec_map,X):  #get the average word vector of a sentence
     X_vec_dic={}
     X_vec_list=[]
 
@@ -434,17 +429,11 @@ symptoms_vec_dic,symptoms_vec_list=sentence_to_avg(word_to_vec_map,symptoms_list
 
 print("-------------------sentence averaged-------------------")
 
-def visualisation(x1,x2=None):
+def visualisation(x1):  #apply PCA to visualise the word vector in a plane
 
     pca = PCA(n_components=2)
     newX1 = pca.fit_transform(x1)
     print("PCA variance sum of word vectors",np.sum(pca.explained_variance_ratio_))
-    #
-    # if(x2!=None):
-    #     newX2=pca.fit_transform(x2)
-    #     print("PCA variance sum of centroids",np.sum(pca.explained_variance_ratio_))
-    #     plt.scatter(newX2[:, 0], newX2[:, 1], c="blue")
-
 
     plt.scatter(newX1[:,0],newX1[:,1],c="red")
 
@@ -453,9 +442,7 @@ def visualisation(x1,x2=None):
 
 
 
-
-
-def plot_Kmeans_error(X):
+def plot_Kmeans_error(X): #plot the k-means error graph
     error=[]
     for i in range(4,40):
         kmeans = KMeans(n_clusters=i, random_state=0).fit(X)
