@@ -54,7 +54,7 @@ def feature_scaling(X_train,X_dev):
 
 X_train,X_dev=feature_scaling(X_train.astype(float),X_dev.astype(float))
 
-def my_score(predictions,Y):
+def my_score(predictions,Y):  #calculate precision and recall
 
     true_pos=0
     fal_pos=0

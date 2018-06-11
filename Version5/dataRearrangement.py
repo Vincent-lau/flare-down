@@ -7,11 +7,11 @@ import codecs
 from gensim.models.keyedvectors import KeyedVectors
 from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_dev_split
 
 def csv_to_text(): #need to deal with "Incontinence urine"
-    with codecs.open("/Users/liuliu/My Documents/flare_down/code/fd-export2.csv", 'r', encoding="utf-8") as f1:
-        with codecs.open("/Users/liuliu/My Documents/flare_down/code/Version5/txtFileOfCsv.txt", "w",encoding="utf-8") as f2:
+    with codecs.open("/Users/liuliu/myDocuments/flare_down/code/fd-export2.csv", 'r', encoding="utf-8") as f1:
+        with codecs.open("/Users/liuliu/myDocuments/flare_down/code/Version5/txtFileOfCsv.txt", "w",encoding="utf-8") as f2:
 
             preline=""
             for line in f1:
@@ -33,8 +33,8 @@ def csv_to_text(): #need to deal with "Incontinence urine"
 #
 # csv_to_text()
 def remove_quotes():  #remove quotes around "Incontinence urine"
-    with codecs.open("/Users/liuliu/My Documents/flare_down/code/Version5/txtFileOfCsv.txt", 'r', encoding="utf-8") as fin:
-        with codecs.open("/Users/liuliu/My Documents/flare_down/code/Version5/remove_quotes.txt", "w",encoding="utf-8") as fout:
+    with codecs.open("/Users/liuliu/myDocuments/flare_down/code/Version5/txtFileOfCsv.txt", 'r', encoding="utf-8") as fin:
+        with codecs.open("/Users/liuliu/myDocuments/flare_down/code/Version5/remove_quotes.txt", "w",encoding="utf-8") as fout:
             for line in fin:
                 record=line.split(',')
 
@@ -49,8 +49,8 @@ def remove_quotes():  #remove quotes around "Incontinence urine"
 
 # ----------------------------------------------------------------------------
 def delete_trackableID():    #delete the column trackableID
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/txtFileOfCsv.txt", 'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/delete_trackableID.txt", 'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/txtFileOfCsv.txt", 'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/delete_trackableID.txt", 'w',encoding="utf-8") as fout:
             for line in fin:
                 record=line.split(',')
                 for i in range(len(record)):
@@ -63,8 +63,8 @@ def delete_trackableID():    #delete the column trackableID
 
 #----------------------------------------------------------------------------
 def rearrange():           #rearrange data such that all information under the same user will be grouped
-    with open ("/Users/liuliu/My Documents/flare_down/code/Version5/delete_trackableID.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/rearrange.txt",'w',encoding="utf-8") as fout:
+    with open ("/Users/liuliu/myDocuments/flare_down/code/Version5/delete_trackableID.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/rearrange.txt",'w',encoding="utf-8") as fout:
             preID = ""
             for line in fin:
 
@@ -92,8 +92,8 @@ def rearrange():           #rearrange data such that all information under the s
 
 #----------------------------------------------------------------------------
 def sort_by_date():             #sort every group according to dates and delete all date afterwards
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/rearrange.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/sort_by_date.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/rearrange.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/sort_by_date.txt",'w',encoding="utf-8") as fout:
             module=[]
             for line in fin:
                 record=line.split(',')
@@ -121,8 +121,8 @@ def sort_by_date():             #sort every group according to dates and delete 
 
 # ----------------------------------------------------------------------------
 def discard_noSymptoms():   #discard groups with no symptoms i.e. no y value
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/sort_by_date.txt", 'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/discard_noSymptoms.txt", 'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/sort_by_date.txt", 'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/discard_noSymptoms.txt", 'w',encoding="utf-8") as fout:
             module = []
             for line in fin:
                 flag = False
@@ -146,8 +146,8 @@ def discard_noSymptoms():   #discard groups with no symptoms i.e. no y value
 
 # ----------------------------------------------------------------------------
 def discard_treatment_weather_zeroSymptom():  #discard all treamtment, weather, and symptoms with zeros
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/discard_noSymptoms.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/discard_treatment_weather_zeroSymptom.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/discard_noSymptoms.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/discard_treatment_weather_zeroSymptom.txt",'w',encoding="utf-8") as fout:
             for line in fin:
                 record=line.split(',')
                 flag=True
@@ -164,8 +164,8 @@ def discard_treatment_weather_zeroSymptom():  #discard all treamtment, weather, 
 
 #----------------------------------------------------------------------------
 def seperate_groups():  #seperate groups such that every group ends with some symptoms and discard those without a symptom at the end
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/discard_treatment_weather_zeroSymptom.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/seperate_groups.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/discard_treatment_weather_zeroSymptom.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/seperate_groups.txt",'w',encoding="utf-8") as fout:
             module = []
             symptom_flag=False
             for line in fin:
@@ -222,8 +222,9 @@ def read_word_vecs(word_vecs):
 
 
 
-def generate_list():  # generate lists that has all the conditions, tags and symptoms in them for the conversion to averaged word vectors
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/sort_by_date.txt", 'r',encoding="utf-8") as fin:
+def generate_list():  
+    # generate lists that has all the conditions, tags and symptoms in them for the conversion to averaged word vectors
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/sort_by_date.txt", 'r',encoding="utf-8") as fin:
 
         countries = {"": 0}
         tags_list = []
@@ -255,7 +256,8 @@ def generate_list():  # generate lists that has all the conditions, tags and sym
 
 
 
-def sentence_to_avg(word_to_vec_map,X):  # convert a particular string of condition to a word vector by averaging every word in the string
+def sentence_to_avg(word_to_vec_map,X):  
+    # convert a particular string of condition to a word vector by averaging every word in the string
     X_vec_dic = {}
     X_vec_list = []
 
@@ -329,7 +331,9 @@ def get_clusters(X_list, X_dic,n_centroids):  # print every entry in the list an
 
 
 def write_dic(countries,conditions,tags,symptoms):
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/dic.txt",'w',encoding="utf-8") as fout:
+    #generate a dictionary file that has all the conditions, tags and symptoms 
+    # and their associated ordinal numbers
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/dic.txt",'w',encoding="utf-8") as fout:
         fout.write("COUNTRY\n")
         for s in countries:
             fout.write(s+','+str(countries[s])+",\n")
@@ -346,7 +350,8 @@ def write_dic(countries,conditions,tags,symptoms):
             fout.write(str(np.squeeze(c[0])) + ',' + str(np.squeeze(c[1])) + ",\n")
 
 
-def generate_dic(words, word_to_vec_map,n_condition_clusters,n_tag_clusters,n_symptom_clusters):   #generate by clustering all symptoms, conditions  and tags
+def generate_dic( word_to_vec_map,n_condition_clusters,n_tag_clusters,n_symptom_clusters):   
+    #generate by clustering all symptoms, conditions  and tags
 
     print("-------------------word vectors loaded-------------------")
     conditions_list, tags_list, symptoms_list, countries = generate_list()
@@ -372,7 +377,7 @@ def generate_dic(words, word_to_vec_map,n_condition_clusters,n_tag_clusters,n_sy
 #----------------------------------------------------------------------------
 
 def read_dic():    #read in the dic for conditions, tags, and symptoms
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/dic.txt",'r',encoding='utf-8') as fin:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/dic.txt",'r',encoding='utf-8') as fin:
             Dic={"countries_dic":{"":0},"conditions_dic":{},"tags_dic":{},"symptoms_dic":{}}
 
             dic_selected = ""
@@ -400,8 +405,8 @@ def read_dic():    #read in the dic for conditions, tags, and symptoms
 
 # ----------------------------------------------------------------------------
 def data_in_dic():  #keep only the data that is in the dic
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/seperate_groups.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/data_in_dic.txt",'w',encoding="utf-8") as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/seperate_groups.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/data_in_dic.txt",'w',encoding="utf-8") as fout:
             allDic = read_dic()
 
             conditions_dic = allDic["conditions_dic"]
@@ -428,8 +433,9 @@ def data_in_dic():  #keep only the data that is in the dic
 
 #----------------------------------------------------------------------------
 def keep_good_data():
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/data_in_dic.txt", 'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/keep_good_data.txt",'w',encoding="utf-8") as fout:
+    # keep data that have enough for the algorithm to make predications
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/data_in_dic.txt", 'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/keep_good_data.txt",'w',encoding="utf-8") as fout:
             module = []
             for line in fin:
                 if ("==" in line):
@@ -471,9 +477,9 @@ def convert_to_number():  #convert all strings to numbers for machine learning
     tag_size = tags_dic[max(tags_dic, key=tags_dic.get)]+1
     symptom_size = symptoms_dic[max(symptoms_dic, key=symptoms_dic.get)]+1
 
-    with open("/Users/liuliu/My Documents/flare_down/code/Version5/keep_good_data.txt",'r',encoding="utf-8") as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version5/training.txt", 'w') as fout1:
-            with open("/Users/liuliu/My Documents/flare_down/code/Version5/dev.txt", 'w') as fout2:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version5/keep_good_data.txt",'r',encoding="utf-8") as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version5/training.txt", 'w') as fout1:
+            with open("/Users/liuliu/myDocuments/flare_down/code/Version5/dev.txt", 'w') as fout2:
                 s=""
                 countries_value=[0]*country_size
                 conditons_value=[0]*condition_size
@@ -490,8 +496,7 @@ def convert_to_number():  #convert all strings to numbers for machine learning
 
                     elif(4000<=counter<5000):
                         fout=fout2
-                    # else:
-                    #     break
+         
 
                     record=line.split(',')
                     if("==" in record[0] ):
@@ -518,7 +523,7 @@ def convert_to_number():  #convert all strings to numbers for machine learning
 
                         counter+=1
 
-                       # s+=record[0]
+               
                         for i in range(1,4):
 
                             if(i==1):
@@ -571,7 +576,7 @@ def convert_to_number():  #convert all strings to numbers for machine learning
 #----------------------------------------------------------------------------
 
 
-def read_set(File,symptom_size,overall_size):
+def read_set(File,symptom_size,overall_size): 
     X=[]
     Y=[]
     with open(File, 'r') as fin:
@@ -592,17 +597,6 @@ def read_set(File,symptom_size,overall_size):
 
 
             Y.append(tmp)
-    # newY=[]
-    # for i in Y:
-    #     tmp=[0]*410
-    #
-    #     tmp[i]=1
-    #     newY.append(tmp)
-    #
-
-    #
-    #
-    # Y=np.array(newY)
 
     X=np.array(X)
     Y=np.array(Y)
@@ -615,34 +609,27 @@ def read_set(File,symptom_size,overall_size):
 
 
 
-def feature_scaling(X_train,X_test):
+def feature_scaling(X_train,X_dev): #apply feature scaling to the set
     scaler = StandardScaler()
 
     scaler.fit(X_train)
     X_train = scaler.transform(X_train)
 
-    X_test = scaler.transform(X_test)
-    return X_train,X_test
+    X_dev = scaler.transform(X_dev)
+    return X_train,X_dev
 
 
 
 
 
-def my_score(predictions,Y):
-
-
-
+def my_score(predictions,Y):  #calculate precision and recall
     true_pos=0
     fal_pos=0
     fal_neg=0
     m=Y.shape[0]
     for i in range(m):
-        printed=False
-        for j in range(len(Y[i])):
 
-           # if(predictions[i][j]!=Y[i][j]):
-              #  print(i,j,predictions[i][j],end='|')
-              #  printed=True
+        for j in range(len(Y[i])):
 
             if(predictions[i][j]):
                 if(Y[i][j]):
@@ -653,9 +640,6 @@ def my_score(predictions,Y):
             else:
                 if(Y[i][j]):
                     fal_neg+=1
-
-       # if(printed):
-#           print()
 
 
     precision=true_pos/(true_pos+fal_pos)
@@ -677,36 +661,36 @@ def tuning_hyper_parameters():
     # print("alpha =",i)
     clf.fit(X_train,Y_train)
 
-    #print(clf.predict_proba(X_test).astype(int))
+    #print(clf.predict_proba(X_dev).astype(int))
     #print("train: ",my_score(clf.predict(X_train),Y_train),file=f)
-    print("test: ", my_score(clf.predict(X_test), Y_test),file=f)
-    #print("test: ",my_score((clf.predict_proba(X_test)).astype(int),Y_test))
+    print("dev: ", my_score(clf.predict(X_dev), Y_dev),file=f)
+    #print("dev: ",my_score((clf.predict_proba(X_dev)).astype(int),Y_dev))
 
 
 
 
-words, word_to_vec_map = read_word_vecs("/Users/liuliu/My Documents/flare_down/data/PMC-w2v.txt")
+words, word_to_vec_map = read_word_vecs("/Users/liuliu/myDocuments/flare_down/data/PMC-w2v.txt")
 
-f=open("/Users/liuliu/My Documents/flare_down/code/Version5/tuning_result.txt",'w')
-
+#write the reuslt of trying different number of centroids to a file for further comparison
+f=open("/Users/liuliu/myDocuments/flare_down/code/Version5/tuning_result.txt",'w')
 for i in range(40,101,10):
     for j in range(40,101,10):
         for k in range(40,101,10):
-            generate_dic(words, word_to_vec_map,n_condition_clusters=i,n_tag_clusters=j,n_symptom_clusters=k)
+            generate_dic( word_to_vec_map,n_condition_clusters=i,n_tag_clusters=j,n_symptom_clusters=k)
             print("n_condition_clusters=",i,"n_tag_clusters=",j,"n_symptom_clusters=",k,file=f)
             print("n_condition_clusters=", i, "n_tag_clusters=", j, "n_symptom_clusters=", k)
             read_dic()
             data_in_dic()
             keep_good_data()
             symptom_size,overall_size=convert_to_number()
-            X, Y, m = read_set("/Users/liuliu/My Documents/flare_down/code/Version5/training.txt", symptom_size,
+            X, Y, m = read_set("/Users/liuliu/myDocuments/flare_down/code/Version5/training.txt", symptom_size,
                                overall_size)
 
-            X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=500, shuffle=True)
+            X_train, X_dev, Y_train, Y_dev = train_dev_split(X, Y, dev_size=500, shuffle=True)
 
-            print(Y_train.shape[0],Y_test.shape[0])
+            print(Y_train.shape[0],Y_dev.shape[0])
 
-            X_train,X_test=feature_scaling(X_train.astype(float),X_test.astype(float))
+            X_train,X_dev=feature_scaling(X_train.astype(float),X_dev.astype(float))
             tuning_hyper_parameters()
 
 

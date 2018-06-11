@@ -11,8 +11,8 @@ from gensim.models.keyedvectors import KeyedVectors
 
 # ----------------------------------------------------------------------------
 def delete_trackableID():    #delete the column trackableID
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/txtFileOfCsv.txt", 'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/delete_trackableID.txt", 'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/txtFileOfCsv.txt", 'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/delete_trackableID.txt", 'w') as fout:
             for line in fin:
                 record=line.split(',')
                 for i in range(len(record)):
@@ -25,8 +25,8 @@ def delete_trackableID():    #delete the column trackableID
 
 #----------------------------------------------------------------------------
 def rearrange():           #rearrange data such that all information under the same user will be grouped
-    with open ("/Users/liuliu/My Documents/flare_down/code/Version4/delete_trackableID.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/rearrange.txt",'w') as fout:
+    with open ("/Users/liuliu/myDocuments/flare_down/code/Version4/delete_trackableID.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/rearrange.txt",'w') as fout:
             preID = ""
             for line in fin:
 
@@ -54,8 +54,8 @@ def rearrange():           #rearrange data such that all information under the s
 
 #----------------------------------------------------------------------------
 def sort_by_date():             #sort every group according to dates and delete all date afterwards
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/rearrange.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/sort_by_date.txt",'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/rearrange.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/sort_by_date.txt",'w') as fout:
             module=[]
             for line in fin:
                 record=line.split(',')
@@ -84,8 +84,8 @@ def sort_by_date():             #sort every group according to dates and delete 
 
 # ----------------------------------------------------------------------------
 def discard_noSymptoms():   #discard groups with no symptoms i.e. no y value
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/sort_by_date.txt", 'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/discard_noSymptoms.txt", 'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/sort_by_date.txt", 'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/discard_noSymptoms.txt", 'w') as fout:
             module = []
             for line in fin:
                 flag = False
@@ -109,8 +109,8 @@ def discard_noSymptoms():   #discard groups with no symptoms i.e. no y value
 
 # ----------------------------------------------------------------------------
 def discard_treatment_weather_zeroSymptom():  #discard all treamtment, weather, and symptoms with zeros
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/discard_noSymptoms.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/discard_treatment_weather_zeroSymptom.txt",'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/discard_noSymptoms.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/discard_treatment_weather_zeroSymptom.txt",'w') as fout:
             for line in fin:
                 record=line.split(',')
                 flag=True
@@ -127,8 +127,8 @@ def discard_treatment_weather_zeroSymptom():  #discard all treamtment, weather, 
 
 #----------------------------------------------------------------------------
 def seperate_groups():  #seperate groups such that every group ends with some symptoms and discard those without a symptom at the end
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/discard_treatment_weather_zeroSymptom.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/seperate_groups.txt",'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/discard_treatment_weather_zeroSymptom.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/seperate_groups.txt",'w') as fout:
             module = []
             symptom_flag=False
             for line in fin:
@@ -165,7 +165,7 @@ def seperate_groups():  #seperate groups such that every group ends with some sy
 #----------------------------------------------------------------------------
 
 def read_dic():    #read in the dic for conditions, tags, and symptoms
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/dic.txt",'r') as fin:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/dic.txt",'r') as fin:
             Dic={"countries_dic":{"":0},"conditions_dic":{},"tags_dic":{},"symptoms_dic":{}}
 
             dic_selected = ""
@@ -193,8 +193,8 @@ def read_dic():    #read in the dic for conditions, tags, and symptoms
 
 # ----------------------------------------------------------------------------
 def data_in_dic():  #keep only the data that is in the dic
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/seperate_groups.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/data_in_dic.txt",'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/seperate_groups.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/data_in_dic.txt",'w') as fout:
             allDic = read_dic()
 
             conditions_dic = allDic["conditions_dic"]
@@ -221,8 +221,8 @@ def data_in_dic():  #keep only the data that is in the dic
 
 #----------------------------------------------------------------------------
 def keep_good_data():  #keep data that have enough for the algorithm to make predications
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/data_in_dic.txt", 'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/keep_good_data.txt",'w') as fout:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/data_in_dic.txt", 'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/keep_good_data.txt",'w') as fout:
             module = []
             for line in fin:
                 if ("==" in line):
@@ -259,9 +259,9 @@ def convert_to_number():  #convert all strings to numbers for machine learning
     symptoms_dic=allDic["symptoms_dic"]
 
 
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/keep_good_data.txt",'r') as fin:
-        with open("/Users/liuliu/My Documents/flare_down/code/Version4/training.txt", 'w') as fout1:
-            with open("/Users/liuliu/My Documents/flare_down/code/Version4/dev.txt", 'w') as fout2:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/keep_good_data.txt",'r') as fin:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version4/training.txt", 'w') as fout1:
+            with open("/Users/liuliu/myDocuments/flare_down/code/Version4/dev.txt", 'w') as fout2:
                 s=""
                 countries_value=[0]*36
                 conditons_value=[0]*19
@@ -377,7 +377,7 @@ def read_word_vecs(word_vecs):  #read in all the word vectors
 #----------------------------------------------------------------------------
 def generate_list():
     #generate lists that has all the conditions, tags and symptoms in them for the conversion to averaged word vectors
-    with open("/Users/liuliu/My Documents/flare_down/code/Version4/sort_by_date.txt",'r') as fin:
+    with open("/Users/liuliu/myDocuments/flare_down/code/Version4/sort_by_date.txt",'r') as fin:
 
         countries={"":0}
         tags_list=[]
