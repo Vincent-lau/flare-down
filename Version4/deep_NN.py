@@ -4,8 +4,6 @@ import sklearn.datasets
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from sklearn.neural_network import MLPClassifier
-from mpl_toolkits.mplot3d import Axes3D
-import time
 from sklearn.preprocessing import StandardScaler
 
 def read_set(File):
@@ -28,17 +26,6 @@ def read_set(File):
                 tmp.append(int(record[i]))
 
             Y.append(tmp)
-    # newY=[]
-    # for i in Y:
-    #     tmp=[0]*410
-    #
-    #     tmp[i]=1
-    #     newY.append(tmp)
-    #
-
-    #
-    #
-    # Y=np.array(newY)
 
     X=np.array(X)
     Y=np.array(Y)
@@ -49,39 +36,34 @@ def read_set(File):
 
 
 X_train,Y_train,m_train=read_set("/Users/liuliu/My Documents/flare_down/code/Version4/training.txt")
-X_test,Y_test,m_test=read_set("/Users/liuliu/My Documents/flare_down/code/Version4/dev.txt")
-print(Y_train.shape[0],Y_test.shape[0])
+X_dev,Y_dev,m_dev=read_set("/Users/liuliu/My Documents/flare_down/code/Version4/dev.txt")
+print(Y_train.shape[0],Y_dev.shape[0])
 
 
-def feature_scaling(X_train,X_test):
+def feature_scaling(X_train,X_dev):
     scaler = StandardScaler()
 
     scaler.fit(X_train)
     X_train = scaler.transform(X_train)
 
-    X_test = scaler.transform(X_test)
-    return X_train,X_test
+    X_dev = scaler.transform(X_dev)
+    return X_train,X_dev
 
 
 
 
-X_train,X_test=feature_scaling(X_train.astype(float),X_test.astype(float))
+X_train,X_dev=feature_scaling(X_train.astype(float),X_dev.astype(float))
 
 def my_score(predictions,Y):
-
-
 
     true_pos=0
     fal_pos=0
     fal_neg=0
     m=Y.shape[0]
     for i in range(m):
-       # printed=False
+
         for j in range(len(Y[i])):
 
-          #  if(predictions[i][j]!=Y[i][j]):
-               # print(i,j,predictions[i][j],end='|')
-            #    printed=True
 
             if(predictions[i][j]):
                 if(Y[i][j]):
@@ -92,12 +74,6 @@ def my_score(predictions,Y):
             else:
                 if(Y[i][j]):
                     fal_neg+=1
-
-        #if(printed):
-         #   print()
-
-
-
 
 
     return true_pos/(true_pos+fal_pos),true_pos/(true_pos+fal_neg)
@@ -118,22 +94,27 @@ def tuning_hyper_parameters():
     #print("alpha =",i)
     clf.fit(X_train,Y_train)
 
-    #print(clf.predict_proba(X_test).astype(int))
-    #print(clf.out_activation_)
+
     print("train: ",my_score(clf.predict(X_train),Y_train))
-    print("dev: ", my_score(clf.predict(X_test), Y_test))
-    #print("test: ",my_score((clf.predict_proba(X_test)).astype(int),Y_test))
+    print("dev: ", my_score(clf.predict(X_dev), Y_dev))
+
 
 
 tuning_hyper_parameters()
 
 
 
-def plot_tuning():
+def plot_tuning():   #plot the learning curve to tune the network
     x_alpha=[]
     y_n_units=[]
     z_score_train=[]
-    z_score_test=[]
+    z_score_dev=[]
+    hyper_learning_rate=[0.001,0.003,0.009,0.01,0.03,0.09,0.1,0.3]
+    hyper_alpha=[1,1.2,1.4,1.6,1.8,2,2.2]
+    hyper_n_units=range(5,46,5)
+
+    hyper_reg=[3,3.5,4,4.5,5]
+    hyper_threshold=[0.4,0.35,0.3,0.25]
     for i in hyper_alpha:
         for j in hyper_n_units:
             clf = MLPClassifier(solver='adam', alpha=0.6, hidden_layer_sizes=(j), random_state=0, max_iter=5000, learning_rate_init=i)
@@ -143,9 +124,9 @@ def plot_tuning():
             x_alpha.append(i)
             y_n_units.append(j)
             print(clf.score(X_train, Y_train)*100,'%')
-            print(clf.score(X_test,Y_test)*100,'%')
+            print(clf.score(X_dev,Y_dev)*100,'%')
             z_score_train.append(clf.score(X_train, Y_train)*100)
-            z_score_test.append(clf.score(X_test,Y_test)*100)
+            z_score_dev.append(clf.score(X_dev,Y_dev)*100)
 
 
     fig = plt.figure()
@@ -153,7 +134,7 @@ def plot_tuning():
 
 
     ax.plot(x_alpha, y_n_units, z_score_train, label='train')
-    ax.plot(x_alpha, y_n_units, z_score_test,label="test")
+    ax.plot(x_alpha, y_n_units, z_score_dev,label="dev")
     ax.legend()
 
     plt.show()

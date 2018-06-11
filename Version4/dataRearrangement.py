@@ -9,7 +9,6 @@ from gensim.models.keyedvectors import KeyedVectors
 
 
 
-
 # ----------------------------------------------------------------------------
 def delete_trackableID():    #delete the column trackableID
     with open("/Users/liuliu/My Documents/flare_down/code/Version4/txtFileOfCsv.txt", 'r') as fin:
@@ -221,7 +220,7 @@ def data_in_dic():  #keep only the data that is in the dic
 
 
 #----------------------------------------------------------------------------
-def keep_good_data():
+def keep_good_data():  #keep data that have enough for the algorithm to make predications
     with open("/Users/liuliu/My Documents/flare_down/code/Version4/data_in_dic.txt", 'r') as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version4/keep_good_data.txt",'w') as fout:
             module = []
@@ -355,7 +354,7 @@ def convert_to_number():  #convert all strings to numbers for machine learning
 keep_good_data()
 convert_to_number()
 #----------------------------------------------------------------------------
-def read_word_vecs(word_vecs):
+def read_word_vecs(word_vecs):  #read in all the word vectors
 
     with codecs.open(word_vecs, 'r',encoding="utf-8") as f:
         words = set()
@@ -373,10 +372,11 @@ def read_word_vecs(word_vecs):
 
     return words, word_to_vec_map
 
-# words, word_to_vec_map = read_word_vecs("/Users/liuliu/Downloads/PMC-w2v.txt")
+# words, word_to_vec_map = read_word_vecs("/Users/liuliu/myDocuments/flare_down/data/PMC-w2v.txt")
 
 #----------------------------------------------------------------------------
-def generate_list():    #generate lists that has all the conditions, tags and symptoms in them for the conversion to averaged word vectors
+def generate_list():
+    #generate lists that has all the conditions, tags and symptoms in them for the conversion to averaged word vectors
     with open("/Users/liuliu/My Documents/flare_down/code/Version4/sort_by_date.txt",'r') as fin:
 
         countries={"":0}
@@ -413,11 +413,10 @@ def generate_list():    #generate lists that has all the conditions, tags and sy
         return conditions_list,tags_list,symptoms_list
 #----------------------------------------------------------------------------
 
-def sentence_to_avg(word_to_vec_map,X):     #convert a particular string of condition to a word vector by averaging every word in the string
+def sentence_to_avg(word_to_vec_map,X):
+    #convert a particular string of condition to a word vector by averaging every word in the string
     X_vec_dic={}
     X_vec_list=[]
-
-
     for sentence in X:
         words = sentence.lower().split(' ')
         avg =0

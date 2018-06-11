@@ -286,7 +286,7 @@ def deal_with_featuresBeforeSymptom2(till_symptom):
     return (flag,kept)
 
 def allFrequentConditionsBeforeSymptom():
-    # keep all conditions that are in the tuple:mostFrequentConditions while only keep one most frequent tag
+    # keep all conditions that are in the tuple:mostFrequentConditions while only keep one most frequent tags
     with open("/Users/liuliu/myDocuments/flare_down/code/Version1/remove_incomplete_data.txt", 'r') as fin:
         with open("/Users/liuliu/myDocuments/flare_down/code/Version1/allFrequentConditionsBeforeSymptom.txt", 'w') as fout:
 
@@ -321,7 +321,7 @@ def allFrequentConditionsBeforeSymptom():
 def generateCountries():
     #generate a file that contains countries and their mappings
     with open("/Users/liuliu/myDocuments/flare_down/code/Version1/allFrequentConditionsBeforeSymptom.txt",'r') as fin:
-        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/countries.txt",'w') as fout:
+        with open("/Users/liuliu/myDocuments/flare_down/code/Version1/dic.txt",'w') as fout:
             countries=[]
             for line in fin:
                 if("==" in line):

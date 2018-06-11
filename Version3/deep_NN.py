@@ -4,8 +4,6 @@ import sklearn.datasets
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from sklearn.neural_network import MLPClassifier
-from mpl_toolkits.mplot3d import Axes3D
-import time
 from sklearn.preprocessing import StandardScaler
 
 def read_set(File):
@@ -23,18 +21,6 @@ def read_set(File):
             X.append(tmp)
             Y.append(int(record[-2]))
 
-    # newY=[]
-    # for i in Y:
-    #     tmp=[0]*410
-    #
-    #     tmp[i]=1
-    #     newY.append(tmp)
-    #
-
-    #
-    #
-    # Y=np.array(newY)
-
     X=np.array(X)
     Y=np.array(Y)
 
@@ -44,18 +30,18 @@ def read_set(File):
 
 
 X_train,Y_train,m_train=read_set("/Users/liuliu/My Documents/flare_down/code/Version3/training.txt")
-X_test,Y_test,m_test=read_set("/Users/liuliu/My Documents/flare_down/code/Version3/dev.txt")
+X_dev,Y_dev,m_dev=read_set("/Users/liuliu/My Documents/flare_down/code/Version3/dev.txt")
 
 
 
-def feature_scaling(X_train,X_test):
+def feature_scaling(X_train,X_dev):
     scaler = StandardScaler()
 
     scaler.fit(X_train)
     X_train = scaler.transform(X_train)
 
-    X_test = scaler.transform(X_test)
-    return X_train,X_test
+    X_dev = scaler.transform(X_dev)
+    return X_train,X_dev
 
 
 
@@ -74,7 +60,7 @@ def predict(parameters, X):
     """
 
     # Computes probabilities using forward propagation, and classifies to 0/1 using 0.5 as the threshold.
-    ### START CODE HERE ### (≈ 2 lines of code)
+
 
     A2, cache = forward_propagation(X, parameters)
 
@@ -97,7 +83,7 @@ def predict(parameters, X):
     return predictions
 
 
-def my_score(predictions,Y):
+def my_score(predictions,Y):  #new way of measuring the performance of my algorithm
     newY=[]
     for i in Y:
         tmp=[0]*19
@@ -126,13 +112,6 @@ def my_score(predictions,Y):
 
 
 
-def tuning_hyper_parameters():
-    r=-4*np.random.rand(6)
-    r.sort()
-    hyper_alpha=[0.00099,0.001,0.0012,0.0014,0.0016,0.0018]
-    hyper_n_units=range(5,46,5)
-
-    hyper_reg=[3,3.5,4,4.5,5]
 
 
 
@@ -141,17 +120,21 @@ clf = MLPClassifier(solver='adam', alpha=1.1, hidden_layer_sizes=(90,50,45), ran
 clf.fit(X_train,Y_train)
 
 print("performance on training set",my_score(clf.predict(X_train),Y_train),'%')
-print("performance on dev set",my_score(clf.predict(X_test),Y_test),'%')
+print("performance on dev set",my_score(clf.predict(X_dev),Y_dev),'%')
 
 
 
 
 
-def plot_tuning():
+def plot_tuning():  #plot the learning curve to tune the network
     x_alpha=[]
     y_n_units=[]
     z_score_train=[]
-    z_score_test=[]
+    z_score_dev=[]
+    hyper_alpha = [0.00099, 0.001, 0.0012, 0.0014, 0.0016, 0.0018]
+    hyper_n_units = range(5, 46, 5)
+    hyper_reg = [3, 3.5, 4, 4.5, 5]
+
     for i in hyper_alpha:
         for j in hyper_n_units:
             clf = MLPClassifier(solver='adam', alpha=0.6, hidden_layer_sizes=(j), random_state=0, max_iter=5000, learning_rate_init=i)
@@ -161,9 +144,9 @@ def plot_tuning():
             x_alpha.append(i)
             y_n_units.append(j)
             print(clf.score(X_train, Y_train)*100,'%')
-            print(clf.score(X_test,Y_test)*100,'%')
+            print(clf.score(X_dev,Y_dev)*100,'%')
             z_score_train.append(clf.score(X_train, Y_train)*100)
-            z_score_test.append(clf.score(X_test,Y_test)*100)
+            z_score_dev.append(clf.score(X_dev,Y_dev)*100)
 
 
     fig = plt.figure()
@@ -171,7 +154,7 @@ def plot_tuning():
 
 
     ax.plot(x_alpha, y_n_units, z_score_train, label='train')
-    ax.plot(x_alpha, y_n_units, z_score_test,label="test")
+    ax.plot(x_alpha, y_n_units, z_score_dev,label="dev")
     ax.legend()
 
     plt.show()
