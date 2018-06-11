@@ -615,14 +615,14 @@ def read_set(File,symptom_size,overall_size):
 
 
 
-def feature_scaling(X_train,X_test):
+def feature_scaling(X_train,X_dev):
     scaler = StandardScaler()
 
     scaler.fit(X_train)
     X_train = scaler.transform(X_train)
 
-    X_test = scaler.transform(X_test)
-    return X_train,X_test
+    X_dev = scaler.transform(X_dev)
+    return X_train,X_dev
 
 
 
@@ -679,7 +679,7 @@ def tuning_hyper_parameters():
 
     hyper_threshold=[0.4,0.35,0.3,0.25]
     mean_curve_train = []
-    mean_curve_test = []
+    mean_curve_dev = []
 
 
     clf = MLPClassifier(solver='adam',alpha=1.4, hidden_layer_sizes=(300), random_state=1,max_iter=1000,learning_rate_init=0.003)
@@ -688,15 +688,15 @@ def tuning_hyper_parameters():
     performance_train=harmonic_mean
     # mean_curve_train.append(harmonic_mean)
     print("train: ", precision, recall, harmonic_mean)
-    precision, recall, harmonic_mean = my_score(clf.predict(X_test), Y_test)
-    performance_test=harmonic_mean
-    # mean_curve_test.append(harmonic_mean)
-    print("test: ", precision, recall, harmonic_mean)
+    precision, recall, harmonic_mean = my_score(clf.predict(X_dev), Y_dev)
+    performance_dev=harmonic_mean
+    # mean_curve_dev.append(harmonic_mean)
+    print("dev: ", precision, recall, harmonic_mean)
 
-    return performance_train, performance_test
+    return performance_train, performance_dev
 
     # plt.scatter(hyper_learning_rate,mean_curve_train)
-    # plt.scatter(hyper_learning_rate,mean_curve_test)
+    # plt.scatter(hyper_learning_rate,mean_curve_dev)
     # plt.xlabel("learning rate")
     # plt.ylabel("performance")
     # plt.title("performance against learning rate")
@@ -704,7 +704,7 @@ def tuning_hyper_parameters():
 
     # for j in hyper_alpha:
     #     mean_curve_train = []
-    #     mean_curve_test = []
+    #     mean_curve_dev = []
     #     print("alpha=",j)
     #     clf = MLPClassifier(solver='adam', alpha=j, hidden_layer_sizes=(50), random_state=1, max_iter=1,
     #                         learning_rate_init=0.001, warm_start=True)
@@ -721,15 +721,15 @@ def tuning_hyper_parameters():
     #         precision, recall, harmonic_mean = my_score(clf.predict(X_train), Y_train)
     #         mean_curve_train.append(harmonic_mean)
     #         print("train: ", precision, recall, harmonic_mean)
-    #         precision, recall, harmonic_mean = my_score(clf.predict(X_test), Y_test)
-    #         mean_curve_test.append(harmonic_mean)
-    #         print("test: ", precision, recall, harmonic_mean)
+    #         precision, recall, harmonic_mean = my_score(clf.predict(X_dev), Y_dev)
+    #         mean_curve_dev.append(harmonic_mean)
+    #         print("dev: ", precision, recall, harmonic_mean)
     #
     #
     #
     #     # plt.plot(clf.loss_curve_)
     #     plt.plot(mean_curve_train)
-    #     plt.plot(mean_curve_test)
+    #     plt.plot(mean_curve_dev)
     #     plt.show()
 
 i=40
@@ -748,21 +748,21 @@ X,Y,m=read_set("/Users/liuliu/myDocuments/flare_down/code/Version6/training.txt"
 kf = KFold(n_splits=14,shuffle=True)
 
 avg_performance_train = 0
-avg_performance_test=0
-for train_index, test_index in kf.split(X):
+avg_performance_dev=0
+for train_index, dev_index in kf.split(X):
 
 
-    X_train, X_test = X[train_index], X[test_index]
-    Y_train, Y_test = Y[train_index], Y[test_index]
+    X_train, X_dev = X[train_index], X[dev_index]
+    Y_train, Y_dev = Y[train_index], Y[dev_index]
 
-    print(Y_train.shape[0],Y_test.shape[0])
+    print(Y_train.shape[0],Y_dev.shape[0])
 
-    X_train,X_test=feature_scaling(X_train.astype(float),X_test.astype(float))
+    X_train,X_dev=feature_scaling(X_train.astype(float),X_dev.astype(float))
 
     a,b=tuning_hyper_parameters()
     avg_performance_train+=a
-    avg_performance_test+=b
+    avg_performance_dev+=b
 
-avg_performance_test/=14
+avg_performance_dev/=14
 avg_performance_train/=14
-print(avg_performance_train,avg_performance_test)
+print(avg_performance_train,avg_performance_dev)
