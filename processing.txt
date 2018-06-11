@@ -1,3 +1,6 @@
+This file is just recording my personal thought process that might not be reader friendly.... in terms of language and format
+
+
 
 Version 1
 delete trackId and data -> reformat data -> keep major features -> (reformat again to make data compelte,
