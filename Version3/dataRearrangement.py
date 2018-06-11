@@ -145,7 +145,8 @@ def select_symptom():  #choose the symptom with the highest number among consecu
 
 
 #----------------------------------------------------------------------------
-def seperate_groups():  #seperate groups such that every group ends with a single symptom and discard those without a symptom at the end
+def seperate_groups():
+    #seperate groups such that every group ends with a single symptom and discard those without a symptom at the end
     with open("/Users/liuliu/My Documents/flare_down/code/Version3/select_symptom.txt",'r') as fin:
         with open("/Users/liuliu/My Documents/flare_down/code/Version3/seperate_groups.txt",'w') as fout:
             module = []
@@ -346,11 +347,12 @@ def read_word_vecs(word_vecs):
 
 
 convert_to_number()
-words, word_to_vec_map = read_word_vecs("/Users/liuliu/Downloads/PMC-w2v.txt")
+words, word_to_vec_map = read_word_vecs("/Users/liuliu/myDocuments/flare_down/data/PMC-w2v.txt")
 print("--------------------------word vectors loaded--------------------------")
 
 #----------------------------------------------------------------------------
-def generate_list():    #generate lists that has all the conditions, tags and symptoms in them for the conversion to averaged word vectors
+def generate_list():
+    #generate lists that has all the conditions, tags and symptoms in them for the conversion to averaged word vectors
     with open("/Users/liuliu/My Documents/flare_down/code/Version3/sort_by_date.txt",'r') as fin:
             countries={"":0}
             tags_list=[]
@@ -386,11 +388,10 @@ def generate_list():    #generate lists that has all the conditions, tags and sy
             return conditions_list,tags_list,symptoms_list
 #----------------------------------------------------------------------------
 
-def sentence_to_avg(word_to_vec_map,X):     #convert a particular string of condition to a word vector by averaging every word in the string
+def sentence_to_avg(word_to_vec_map,X):
+    #convert a particular string of condition to a word vector by averaging every word in the string
     X_vec_dic={}
     X_vec_list=[]
-
-
     for sentence in X:
         words = sentence.lower().split(' ')
         avg =0
