@@ -7,7 +7,7 @@ Python library used is Scikit-learn.
 
 
 **General instruction:**
-In every version:
+
 
 datarearrangement.py is the code to process the raw data
 
